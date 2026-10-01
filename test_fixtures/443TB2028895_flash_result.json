@@ -1,0 +1,1306 @@
+{
+  "status": "needs_review",
+  "overall_confidence": 1.0,
+  "page_count": 1,
+  "pharmacy": {
+    "name": {
+      "value": "SASTASUNDAR HEALTHBUDDY LIMITED",
+      "raw": "SASTASUNDAR HEALTHBUDDY LIMITED",
+      "confidence": 1.0
+    },
+    "address": {
+      "value": "Vill Salepur Purbo (Dr. Norman Bethune Sarani) PO & PS Baruipur, DAG LR 412 & 414,410(P), 437(P) MOUZA-SALEPUR, GR. FLOOR, 1ST FLOOR & 2N BARUIPUR-700144",
+      "raw": "Vill Salepur Purbo (Dr. Norman Bethune Sarani) PO & PS Baruipur DAG LR 412 & 414,410(P), 437(P) MOUZA-SALEPUR, GR. FLOOR, 1ST FLOOR & 2N BARUIPUR-700144",
+      "confidence": 1.0
+    },
+    "gstin": {
+      "value": "19AAHCH0651P1Z0",
+      "raw": "19AAHCH0651P1Z0",
+      "confidence": 1.0
+    },
+    "dl_no": {
+      "value": "WB/PGS/NBO/W/754049 / WB/PGS/BIO/W/754049",
+      "raw": "WB/PGS/NBO/W/754049 / WB/PGS/BIO/W/754049",
+      "confidence": 1.0
+    }
+  },
+  "invoice": {
+    "invoice_number": {
+      "value": "443TB2028895",
+      "raw": "443TB2028895",
+      "confidence": 1.0
+    },
+    "invoice_date": {
+      "value": "2026-09-22",
+      "raw": "22-09-2026 (06:11 PM)",
+      "confidence": 1.0
+    },
+    "order_no": {
+      "value": "26543441610",
+      "raw": "26543441610",
+      "confidence": 1.0
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "ATOCOR 40 MG TABLET (15 TAB)",
+        "raw": "ATOCOR 40 MG TABLET (15 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 2.0,
+        "raw": "2",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "E2601493",
+        "raw": "E2601493",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "06/29",
+        "raw": "06/29",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 236.97,
+        "raw": "331.75 236.97",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 222.75,
+        "raw": "222.75",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 445.5,
+        "raw": "445.50",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 467.76,
+        "raw": "467.76",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "BETADINE GARGLE 50 ML",
+        "raw": "BETADINE GARGLE 50 ML",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30045034",
+        "raw": "30045034",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "PHILE",
+        "raw": "PHILE",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "GD06826",
+        "raw": "GD06826",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "09/27",
+        "raw": "09/27",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 152.38,
+        "raw": "213.33 152.38",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 143.24,
+        "raw": "143.24",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 143.24,
+        "raw": "143.24",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 150.4,
+        "raw": "150.40",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "CONCOR 5 MG TABLET (10 TAB)",
+        "raw": "CONCOR 5 MG TABLET (10 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30048079",
+        "raw": "30048079",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "M07AM26085",
+        "raw": "M07AM26085",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "04/28",
+        "raw": "04/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 110.77,
+        "raw": "155.08 110.77",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 104.12,
+        "raw": "104.12",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 104.12,
+        "raw": "104.12",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 109.32,
+        "raw": "109.32",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "DYTOR 10 MG TABLET (15 TAB)",
+        "raw": "DYTOR 10 MG TABLET (15 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049079",
+        "raw": "30049079",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "6GK0435",
+        "raw": "6GK0435",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "03/28",
+        "raw": "03/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 88.76,
+        "raw": "124.28 88.76",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 83.43,
+        "raw": "83.43",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 83.43,
+        "raw": "83.43",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 87.59,
+        "raw": "87.59",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "ECOSPRIN AV 75/40 MG CAPSULE (10 CAP)",
+        "raw": "ECOSPRIN AV 75/40 MG CAPSULE (10 CAP)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049062",
+        "raw": "30049062",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 2.0,
+        "raw": "2",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "28028634",
+        "raw": "28028634",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "11/27",
+        "raw": "11/27",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 165.38,
+        "raw": "220.50 165.38",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 158.78,
+        "raw": "158.78",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 4.0,
+        "raw": "4.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 317.53,
+        "raw": "317.53",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 333.39,
+        "raw": "333.39",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "FEBUTAZ 80 TABLET (15 TAB)",
+        "raw": "FEBUTAZ 80 TABLET (15 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "SIH0303B",
+        "raw": "SIH0303B",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "08/28",
+        "raw": "08/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 313.92,
+        "raw": "0.00 313.92",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 295.08,
+        "raw": "295.08",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 295.08,
+        "raw": "295.08",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 309.82,
+        "raw": "309.82",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "FERIUM XT 15 TABLETS",
+        "raw": "FERIUM XT 15 TABLETS",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30045020",
+        "raw": "30045020",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "PACK",
+        "raw": "PACK",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "E16DG26008",
+        "raw": "E16DG26008",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "05/28",
+        "raw": "05/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 266.1,
+        "raw": "372.53 266.10",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 250.13,
+        "raw": "250.13",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 250.13,
+        "raw": "250.13",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 262.63,
+        "raw": "262.63",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "GEMER 2 MG TABLET (15 TAB)",
+        "raw": "GEMER 2 MG TABLET (15 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "GTH2249A",
+        "raw": "GTH2249A",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "06/28",
+        "raw": "06/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 180.71,
+        "raw": "252.99 180.71",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 169.87,
+        "raw": "169.87",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 169.87,
+        "raw": "169.87",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 178.35,
+        "raw": "178.35",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "GLYCOHALE FB ROTACAPS (30 CAP)",
+        "raw": "GLYCOHALE FB ROTACAPS (30 CAP)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "PACK",
+        "raw": "PACK",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "3BA1346",
+        "raw": "3BA1346",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "11/27",
+        "raw": "11/27",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 526.77,
+        "raw": "737.47 526.77",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 495.16,
+        "raw": "495.16",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 495.16,
+        "raw": "495.16",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 519.9,
+        "raw": "519.90",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "JITOLUCO 1% CREAM 30 G",
+        "raw": "JITOLUCO 1% CREAM 30 G",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "PACK",
+        "raw": "PACK",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "5506",
+        "raw": "5506",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "06/28",
+        "raw": "06/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 63.05,
+        "raw": "0.00 63.05",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 98.49,
+        "raw": "98.49",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 0.95,
+        "raw": "0.95",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 98.49,
+        "raw": "98.49",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 0.99,
+        "raw": "0.99",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "ONDERO D 10 MG TABLET (10 TAB)",
+        "raw": "ONDERO D 10 MG TABLET (10 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 2.0,
+        "raw": "2",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "EMV261793",
+        "raw": "EMV261793",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "05/28",
+        "raw": "05/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 168.53,
+        "raw": "235.95 168.53",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 158.42,
+        "raw": "158.42",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 316.84,
+        "raw": "316.84",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 332.68,
+        "raw": "332.68",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "ONDERO DM 500 MG TABLET (10 TAB)",
+        "raw": "ONDERO DM 500 MG TABLET (10 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 3.0,
+        "raw": "3",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "GT261647",
+        "raw": "GT261647",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "06/28",
+        "raw": "06/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 180.61,
+        "raw": "252.85 180.61",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 169.77,
+        "raw": "169.77",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 509.32,
+        "raw": "509.32",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 534.78,
+        "raw": "534.78",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "PANTOCID 20 MG TABLET (15 TAB)",
+        "raw": "PANTOCID 20 MG TABLET (15 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049039",
+        "raw": "30049039",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 2.0,
+        "raw": "2",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "GTG3914A",
+        "raw": "GTG3914A",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "06/28",
+        "raw": "06/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 98.58,
+        "raw": "138.01 98.58",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 92.67,
+        "raw": "92.67",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 185.33,
+        "raw": "185.33",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 194.59,
+        "raw": "194.59",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "PANTODAC AM 20 MG TABLET (15 TAB)",
+        "raw": "PANTODAC AM 20 MG TABLET (15 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049039",
+        "raw": "30049039",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 2.0,
+        "raw": "2",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "IA01023A",
+        "raw": "IA01023A",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "08/28",
+        "raw": "08/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 143.21,
+        "raw": "200.50 143.21",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 134.62,
+        "raw": "134.62",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 269.23,
+        "raw": "269.23",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 282.69,
+        "raw": "282.69",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "PROLOMET AM 25 MG TABLET (10 TAB)",
+        "raw": "PROLOMET AM 25 MG TABLET (10 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049079",
+        "raw": "30049079",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 3.0,
+        "raw": "3",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "SIH0857A",
+        "raw": "SIH0857A",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "04/28",
+        "raw": "04/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 100.0,
+        "raw": "140.00 100.00",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 94.0,
+        "raw": "94.00",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 282.0,
+        "raw": "282.00",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 296.1,
+        "raw": "296.10",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "VALENTAS 100 TABLET (14 TAB)",
+        "raw": "VALENTAS 100 TABLET (14 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 4.0,
+        "raw": "4",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "UC01556",
+        "raw": "UC01556",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "05/28",
+        "raw": "05/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 464.42,
+        "raw": "0.00 464.42",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 436.55,
+        "raw": "436.55",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 1746.22,
+        "raw": "1746.22",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 1833.52,
+        "raw": "1833.52",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "VALENTAS 50 MG TABLET (14 TAB)",
+        "raw": "VALENTAS 50 MG TABLET (14 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "UC01450",
+        "raw": "UC01450",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "05/28",
+        "raw": "05/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 301.24,
+        "raw": "0.00 301.24",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 283.17,
+        "raw": "283.17",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 283.17,
+        "raw": "283.17",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 297.31,
+        "raw": "297.31",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "ZORYL 1 MG TABLET (15 TAB)",
+        "raw": "ZORYL 1 MG TABLET (15 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 2.0,
+        "raw": "2",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "N2601421",
+        "raw": "N2601421",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "04/28",
+        "raw": "04/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 45.36,
+        "raw": "63.51 45.36",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 42.64,
+        "raw": "42.64",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 85.28,
+        "raw": "85.28",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 89.54,
+        "raw": "89.54",
+        "confidence": 1.0
+      }
+    }
+  ],
+  "totals": {
+    "sub_total": {
+      "value": null,
+      "raw": null,
+      "confidence": 1.0
+    },
+    "total_discount": {
+      "value": null,
+      "raw": null,
+      "confidence": 1.0
+    },
+    "total_cgst": {
+      "value": null,
+      "raw": null,
+      "confidence": 1.0
+    },
+    "total_sgst": {
+      "value": null,
+      "raw": null,
+      "confidence": 1.0
+    },
+    "round_off": {
+      "value": null,
+      "raw": null,
+      "confidence": 1.0
+    },
+    "grand_total": {
+      "value": null,
+      "raw": null,
+      "confidence": 1.0
+    }
+  },
+  "flags": [
+    "Totals section (sub_total, total_discount, total_cgst, total_sgst, round_off, grand_total) is not present on the provided invoice page(s).",
+    "Line item 'JITOLUCO 1% CREAM 30 G' amount (0.99) does not match calculated amount (103.41) based on taxable value and GST percentages.",
+    "reconciliation: line_item[0] (ATOCOR 40 MG TABLET (15 TAB)): quantity x rate x (1 - 6%) = 418.77 but taxable_value = 445.50, mismatch exceeds 2% tolerance (diff 6.0%)",
+    "reconciliation: line_item[1] (BETADINE GARGLE 50 ML): quantity x rate x (1 - 6%) = 134.65 but taxable_value = 143.24, mismatch exceeds 2% tolerance (diff 6.0%)",
+    "reconciliation: line_item[2] (CONCOR 5 MG TABLET (10 TAB)): quantity x rate x (1 - 6%) = 97.87 but taxable_value = 104.12, mismatch exceeds 2% tolerance (diff 6.0%)",
+    "reconciliation: line_item[3] (DYTOR 10 MG TABLET (15 TAB)): quantity x rate x (1 - 6%) = 78.42 but taxable_value = 83.43, mismatch exceeds 2% tolerance (diff 6.0%)",
+    "reconciliation: line_item[4] (ECOSPRIN AV 75/40 MG CAPSULE (10 CAP)): quantity x rate x (1 - 4%) = 304.86 but taxable_value = 317.53, mismatch exceeds 2% tolerance (diff 4.0%)",
+    "reconciliation: line_item[5] (FEBUTAZ 80 TABLET (15 TAB)): quantity x rate x (1 - 6%) = 277.38 but taxable_value = 295.08, mismatch exceeds 2% tolerance (diff 6.0%)",
+    "reconciliation: line_item[6] (FERIUM XT 15 TABLETS): quantity x rate x (1 - 6%) = 235.12 but taxable_value = 250.13, mismatch exceeds 2% tolerance (diff 6.0%)",
+    "reconciliation: line_item[7] (GEMER 2 MG TABLET (15 TAB)): quantity x rate x (1 - 6%) = 159.68 but taxable_value = 169.87, mismatch exceeds 2% tolerance (diff 6.0%)",
+    "reconciliation: line_item[8] (GLYCOHALE FB ROTACAPS (30 CAP)): quantity x rate x (1 - 6%) = 465.45 but taxable_value = 495.16, mismatch exceeds 2% tolerance (diff 6.0%)",
+    "reconciliation: line_item[10] (ONDERO D 10 MG TABLET (10 TAB)): quantity x rate x (1 - 6%) = 297.83 but taxable_value = 316.84, mismatch exceeds 2% tolerance (diff 6.0%)",
+    "reconciliation: line_item[11] (ONDERO DM 500 MG TABLET (10 TAB)): quantity x rate x (1 - 6%) = 478.75 but taxable_value = 509.32, mismatch exceeds 2% tolerance (diff 6.0%)",
+    "reconciliation: line_item[12] (PANTOCID 20 MG TABLET (15 TAB)): quantity x rate x (1 - 6%) = 174.22 but taxable_value = 185.33, mismatch exceeds 2% tolerance (diff 6.0%)",
+    "reconciliation: line_item[13] (PANTODAC AM 20 MG TABLET (15 TAB)): quantity x rate x (1 - 6%) = 253.09 but taxable_value = 269.23, mismatch exceeds 2% tolerance (diff 6.0%)",
+    "reconciliation: line_item[14] (PROLOMET AM 25 MG TABLET (10 TAB)): quantity x rate x (1 - 6%) = 265.08 but taxable_value = 282.00, mismatch exceeds 2% tolerance (diff 6.0%)",
+    "reconciliation: line_item[15] (VALENTAS 100 TABLET (14 TAB)): quantity x rate x (1 - 6%) = 1641.43 but taxable_value = 1746.22, mismatch exceeds 2% tolerance (diff 6.0%)",
+    "reconciliation: line_item[16] (VALENTAS 50 MG TABLET (14 TAB)): quantity x rate x (1 - 6%) = 266.18 but taxable_value = 283.17, mismatch exceeds 2% tolerance (diff 6.0%)",
+    "reconciliation: line_item[17] (ZORYL 1 MG TABLET (15 TAB)): quantity x rate x (1 - 6%) = 80.16 but taxable_value = 85.28, mismatch exceeds 2% tolerance (diff 6.0%)"
+  ],
+  "model_version": "gemini-2.5-flash"
+}

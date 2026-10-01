@@ -1,0 +1,556 @@
+{
+  "status": "needs_review",
+  "overall_confidence": 0.7,
+  "page_count": 1,
+  "pharmacy": {
+    "name": {
+      "value": "JYOTSNA MEDICAL AGENCY LLP",
+      "raw": "JYOTSNA MEDICAL AGENCY LLP",
+      "confidence": 1.0
+    },
+    "address": {
+      "value": "10/A, LENIN SARANI 1ST FLOOR, P.O. MALLICKPARA, P.S. SERAMPORE, DIST HOOGHLY, W.B. SERAMPORE, PIN-712201",
+      "raw": "10/A, LENIN SARANI 1ST FLOOR, P.O. MALLICKPARA, P.S. SERAMPORE, DIST HOOGHLY, W.B. SERAMPORE, PIN-712201",
+      "confidence": 1.0
+    },
+    "gstin": {
+      "value": "19AAARJ7563J1ZI",
+      "raw": "19AAARJ7563J1ZI",
+      "confidence": 1.0
+    },
+    "dl_no": {
+      "value": "WB/HGL/NBO/R/62733",
+      "raw": "WB/HGL/NBO/R/62733, WB/HGL/NBO/R/754491",
+      "confidence": 1.0
+    }
+  },
+  "invoice": {
+    "invoice_number": {
+      "value": "2600007700984592",
+      "raw": "2600007700984592",
+      "confidence": 1.0
+    },
+    "invoice_date": {
+      "value": "2023-09-02",
+      "raw": "02-09-2023",
+      "confidence": 1.0
+    },
+    "order_no": {
+      "value": "2600007700984592",
+      "raw": "2600007700984592",
+      "confidence": 1.0
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "LIBRAX TAB",
+        "raw": "LIBRAX TAB",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "20 TAB",
+        "raw": "20 T",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "LXC2014",
+        "raw": "LXC2014",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "02/26",
+        "raw": "02-26",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 223.79,
+        "raw": "223.79",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 175.03,
+        "raw": "175.03",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 0.0,
+        "raw": "0.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 175.03,
+        "raw": "175.03",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.5%",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.5%",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 183.8,
+        "raw": "183.80",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "ZAPIZ 1",
+        "raw": "ZAPIZ 1",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "10 TAB",
+        "raw": "10 T",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "K250092",
+        "raw": "K250092",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "05/26",
+        "raw": "05-26",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 76.85,
+        "raw": "76.85",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 58.55,
+        "raw": "58.55",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 0.0,
+        "raw": "0.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 58.55,
+        "raw": "58.55",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 6.0,
+        "raw": "6%",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 6.0,
+        "raw": "6%",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 65.58,
+        "raw": "65.58",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "METROGYL 400 MG",
+        "raw": "METROGYL 400 MG",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 5.0,
+        "raw": "5",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "15 TAB",
+        "raw": "15 TAB",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "TML0543",
+        "raw": "TML0543",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "03/30",
+        "raw": "03-30",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 196.15,
+        "raw": "196.15",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 143.58,
+        "raw": "143.58",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 0.0,
+        "raw": "0.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 717.9,
+        "raw": "717.90",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 6.0,
+        "raw": "6%",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 6.0,
+        "raw": "6%",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 803.9,
+        "raw": "803.90",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "GLIZID TOTAL P 15 TAB",
+        "raw": "GLIZID TOTAL P 15 TAB",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "15 TAB",
+        "raw": "15 TAB",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "E1GT2603",
+        "raw": "E1GT2603",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "03/28",
+        "raw": "03-28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 145.0,
+        "raw": "145.00",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 110.77,
+        "raw": "110.77",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 0.0,
+        "raw": "0.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 110.77,
+        "raw": "110.77",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 9.0,
+        "raw": "9%",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 9.0,
+        "raw": "9%",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 131.81,
+        "raw": "131.81",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "CONCOR 5",
+        "raw": "CONCOR 5",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049072",
+        "raw": "30049072",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 2.0,
+        "raw": "2",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "10 TAB",
+        "raw": "10 TAB",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "M07AL2608",
+        "raw": "M07AL2608",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "04/25",
+        "raw": "04-25",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 174.0,
+        "raw": "174.00",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 74.21,
+        "raw": "74.21",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 0.0,
+        "raw": "0.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 148.42,
+        "raw": "148.42",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 6.0,
+        "raw": "6%",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 6.0,
+        "raw": "6%",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 166.2,
+        "raw": "166.20",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "CORBIS 2.5",
+        "raw": "CORBIS 2.5",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049072",
+        "raw": "30049072",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "15 TAB",
+        "raw": "15 TAB",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "DPW32001A",
+        "raw": "DPW32001A",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "05/25",
+        "raw": "05-25",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 97.4,
+        "raw": "97.40",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 88.07,
+        "raw": "88.07",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 0.0,
+        "raw": "0.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 88.07,
+        "raw": "88.07",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 9.0,
+        "raw": "9%",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 9.0,
+        "raw": "9%",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 104.84,
+        "raw": "104.84",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "SHELCAL HD TAB",
+        "raw": "SHELCAL HD TAB",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "300415039",
+        "raw": "300415039",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "15S",
+        "raw": "15S",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "TME052020A",
+        "raw": "TME052020A",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "06/28",
+        "raw": "06-28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 170.0,
+        "raw": "170.00",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 130.21,
+        "raw": "130.21",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 0.0,
+        "raw": "0.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 130.21,
+        "raw": "130.21",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 6.0,
+        "raw": "6%",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 6.0,
+        "raw": "6%",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 145.84,
+        "raw": "145.84",
+        "confidence": 1.0
+      }
+    }
+  ],
+  "totals": {
+    "sub_total": {
+      "value": 995.53,
+      "raw": "995.53",
+      "confidence": 0.7
+    },
+    "total_discount": {
+      "value": 37.13,
+      "raw": "37.13",
+      "confidence": 1.0
+    },
+    "total_cgst": {
+      "value": 37.13,
+      "raw": "37.13",
+      "confidence": 1.0
+    },
+    "total_sgst": {
+      "value": 37.13,
+      "raw": "37.13",
+      "confidence": 1.0
+    },
+    "round_off": {
+      "value": 0.34,
+      "raw": "0.34",
+      "confidence": 1.0
+    },
+    "grand_total": {
+      "value": 1006.0,
+      "raw": "1006.00",
+      "confidence": 1.0
+    }
+  },
+  "flags": [
+    "Number of visible line items (7) does not match 'Total Items' (13) indicated on the bill.",
+    "Sum of 'Taxable Value' from visible line items (1428.95) does not match 'Sub Total' (995.53) in the footer.",
+    "Sum of 'Net Amount' from visible line items (1601.97) does not reconcile with 'Grand Total' (1006.00) in the footer, even after considering discount and taxes.",
+    "Calculated line item amounts for 'GLIZID TOTAL P 15 TAB' and 'CORBIS 2.5' differ significantly from the 'Net Amount' printed on the bill.",
+    "Summary tax breakdown by percentage (e.g., 5% Taxable: 958.40) does not align with the sum of taxable values from visible line items grouped by their respective tax percentages.",
+    "Footer totals (Sub Total, Total Discount, Total CGST, Total SGST, Round Off) do not sum up to the Grand Total (1006.00)."
+  ],
+  "model_version": "1.0"
+}

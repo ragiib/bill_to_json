@@ -1,0 +1,1286 @@
+{
+  "status": "completed",
+  "overall_confidence": 0.9997,
+  "page_count": 1,
+  "pharmacy": {
+    "name": {
+      "value": "SASTASUNDAR HEALTHBUDDY LIMITED",
+      "raw": "SASTASUNDAR HEALTHBUDDY LIMITED",
+      "confidence": 1.0
+    },
+    "address": {
+      "value": "VIII Salepur Purbo (Dr. Norman Bethune Sarani) PO & PS Baruipur DAG LR 412 & 414,415(P), 437(P) MOUZA-SALEPUR, GR. FLOOR, 1ST FLOOR & 2N Baruipur-700144",
+      "raw": "VIII Salepur Purbo (Dr. Norman Bethune Sarani) PO & PS Baruipur DAG LR 412 & 414,415(P), 437(P) MOUZA-SALEPUR, GR. FLOOR, 1ST FLOOR & 2N Baruipur-700144",
+      "confidence": 0.98
+    },
+    "gstin": {
+      "value": "19AAHCM0651P1Z0",
+      "raw": "19AAHCM0651P1Z0",
+      "confidence": 1.0
+    },
+    "dl_no": {
+      "value": "WB/PGS/NBO/W/754049 / WB/PGS/BIO/W/754049",
+      "raw": "WB/PGS/NBO/W/754049 / WB/PGS/BIO/W/754049",
+      "confidence": 0.95
+    }
+  },
+  "invoice": {
+    "invoice_number": {
+      "value": "443TB1904436",
+      "raw": "443TB1904436",
+      "confidence": 1.0
+    },
+    "invoice_date": {
+      "value": "2026-09-13",
+      "raw": "13-09-2026",
+      "confidence": 1.0
+    },
+    "order_no": {
+      "value": "25543230143",
+      "raw": "25543230143",
+      "confidence": 1.0
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "BIGGABA NT TABLET (10 TAB)",
+        "raw": "BIGGABA NT TABLET (10 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "P3FZZ004",
+        "raw": "P3FZZ004",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "04/28",
+        "raw": "04/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 224.45,
+        "raw": "239.41\n224.45",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 171.01,
+        "raw": "171.01",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 160.75,
+        "raw": "160.75",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 168.77,
+        "raw": "168.77",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "CAL 123 TABLET (15 TAB)",
+        "raw": "CAL 123 TABLET (15 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30045034",
+        "raw": "30045034",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "CALP26011",
+        "raw": "CALP26011",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "05/28",
+        "raw": "05/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 215.0,
+        "raw": "229.33\n215.00",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 163.81,
+        "raw": "163.81",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 153.98,
+        "raw": "153.98",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 161.66,
+        "raw": "161.66",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "CILAHEART TC 12.5 TABLET (10 TAB)",
+        "raw": "CILAHEART TC 12.5 TABLET (10 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049079",
+        "raw": "30049079",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "C3OAZ003",
+        "raw": "C3OAZ003",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "03/28",
+        "raw": "03/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 124.77,
+        "raw": "133.09\n124.77",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 95.07,
+        "raw": "95.07",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 89.37,
+        "raw": "89.37",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 93.83,
+        "raw": "93.83",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "CYP L SYRUP 200 ML",
+        "raw": "CYP L SYRUP 200 ML",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "PACK",
+        "raw": "PACK",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "26S05019",
+        "raw": "26S05019",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "05/28",
+        "raw": "05/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 149.82,
+        "raw": "159.81\n149.82",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 114.15,
+        "raw": "114.15",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 107.3,
+        "raw": "107.30",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 112.86,
+        "raw": "112.86",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "CYRA D CAPSULE (10 CAP)",
+        "raw": "CYRA D CAPSULE (10 CAP)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049039",
+        "raw": "30049039",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 5.0,
+        "raw": "5",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "3CD1289",
+        "raw": "3CD1289",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "02/28",
+        "raw": "02/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 51.0,
+        "raw": "54.40\n51.00",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 38.87,
+        "raw": "38.87",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 182.69,
+        "raw": "182.69",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 191.81,
+        "raw": "191.81",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "CYRA IT CAPSULE (10 CAP)",
+        "raw": "CYRA IT CAPSULE (10 CAP)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049039",
+        "raw": "30049039",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "08452607",
+        "raw": "08452607",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "04/28",
+        "raw": "04/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 160.0,
+        "raw": "170.67\n160.00",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 121.9,
+        "raw": "121.90",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 114.59,
+        "raw": "114.59",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 120.31,
+        "raw": "120.31",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "DUPHALAC (LEMON FLAVOR) ORAL SOLUTION 250 ML",
+        "raw": "DUPHALAC (LEMON FLAVOR) ORAL SOLUTION 250 ML",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049088",
+        "raw": "30049088",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "PHILE",
+        "raw": "PHILE",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "913171D7",
+        "raw": "913171D7",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "06/28",
+        "raw": "06/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 330.25,
+        "raw": "330.25\n330.25",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 251.62,
+        "raw": "251.62",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 236.52,
+        "raw": "236.52",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 248.34,
+        "raw": "248.34",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "ETOSHINE 90 MG TABLET (15 TAB)",
+        "raw": "ETOSHINE 90 MG TABLET (15 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049088",
+        "raw": "30049088",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "SIH1033A",
+        "raw": "SIH1033A",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "10/28",
+        "raw": "10/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 305.0,
+        "raw": "325.33\n305.00",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 232.38,
+        "raw": "232.38",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 218.44,
+        "raw": "218.44",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 229.36,
+        "raw": "229.36",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "FLEXON MR TABLET (10 TAB)",
+        "raw": "FLEXON MR TABLET (10 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "DPD260840",
+        "raw": "DPD260840",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "03/29",
+        "raw": "03/29",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 32.2,
+        "raw": "34.35\n32.20",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 24.54,
+        "raw": "24.54",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 23.07,
+        "raw": "23.07",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 24.21,
+        "raw": "24.21",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "GEMER P 2 MG TABLET (10 TAB)",
+        "raw": "GEMER P 2 MG TABLET (10 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "GTH2283A",
+        "raw": "GTH2283A",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "06/28",
+        "raw": "06/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 216.56,
+        "raw": "231.00\n216.56",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 165.01,
+        "raw": "165.01",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 155.11,
+        "raw": "155.11",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 162.85,
+        "raw": "162.85",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "GLIMY M2 FORTE TABLET (10 TAB)",
+        "raw": "GLIMY M2 FORTE TABLET (10 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 2.0,
+        "raw": "2",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "E2601223",
+        "raw": "E2601223",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "04/28",
+        "raw": "04/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 200.31,
+        "raw": "213.66\n200.31",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 152.61,
+        "raw": "152.61",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 286.91,
+        "raw": "286.91",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 301.25,
+        "raw": "301.25",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "GLYCINORM OD 60 MG TABLET (15 TAB)",
+        "raw": "GLYCINORM OD 60 MG TABLET (15 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30043190",
+        "raw": "30043190",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "KXS0126005AP",
+        "raw": "KXS0126005AP",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "05/29",
+        "raw": "05/29",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 266.2,
+        "raw": "283.95\n266.20",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 202.82,
+        "raw": "202.82",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 190.65,
+        "raw": "190.65",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 200.17,
+        "raw": "200.17",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "GRILINCTUS NEW SYRUP 100 ML",
+        "raw": "GRILINCTUS NEW SYRUP 100 ML",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049031",
+        "raw": "30049031",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "PACK",
+        "raw": "PACK",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "GN2176004",
+        "raw": "GN2176004",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "06/27",
+        "raw": "06/27",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 146.2,
+        "raw": "155.95\n146.20",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 111.4,
+        "raw": "111.40",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 104.72,
+        "raw": "104.72",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 109.94,
+        "raw": "109.94",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "ISTAMET D XR 1000 MG TABLET (7 TAB)",
+        "raw": "ISTAMET D XR 1000 MG TABLET (7 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "GTH2397A",
+        "raw": "GTH2397A",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "07/28",
+        "raw": "07/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 168.0,
+        "raw": "179.20\n168.00",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 128.0,
+        "raw": "128.00",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 120.32,
+        "raw": "120.32",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 126.32,
+        "raw": "126.32",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "LIVOGEN CAPSULETABS (15 TAB)",
+        "raw": "LIVOGEN CAPSULETABS (15 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30045010",
+        "raw": "30045010",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "8127C84206",
+        "raw": "8127C84206",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "04/28",
+        "raw": "04/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 104.43,
+        "raw": "111.39\n104.43",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 79.56,
+        "raw": "79.56",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 74.79,
+        "raw": "74.79",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 78.51,
+        "raw": "78.51",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "LIZOLID 600 MG TABLET (10 TAB)",
+        "raw": "LIZOLID 600 MG TABLET (10 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049087",
+        "raw": "30049087",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "LZ2HBPTPP603",
+        "raw": "LZ2HBPTPP603",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "05/28",
+        "raw": "05/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 383.0,
+        "raw": "408.53\n383.00",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 291.81,
+        "raw": "291.81",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 274.3,
+        "raw": "274.30",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 288.0,
+        "raw": "288.00",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "LYSOFLAM TABLET (10 TAB)",
+        "raw": "LYSOFLAM TABLET (10 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30045010",
+        "raw": "30045010",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "LFT26034C",
+        "raw": "LFT26034C",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "04/28",
+        "raw": "04/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 172.0,
+        "raw": "183.47\n172.00",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 131.05,
+        "raw": "131.05",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 123.19,
+        "raw": "123.19",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 129.33,
+        "raw": "129.33",
+        "confidence": 1.0
+      }
+    },
+    {
+      "description": {
+        "value": "NITROLONG 2.6 MG TABLET (30 TAB)",
+        "raw": "NITROLONG 2.6 MG TABLET (30 TAB)",
+        "confidence": 1.0
+      },
+      "hsn_code": {
+        "value": "30049079",
+        "raw": "30049079",
+        "confidence": 1.0
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 1.0
+      },
+      "unit": {
+        "value": "PHILE",
+        "raw": "PHILE",
+        "confidence": 1.0
+      },
+      "batch": {
+        "value": "B2HSZ094",
+        "raw": "B2HSZ094",
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": "04/28",
+        "raw": "04/28",
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": 251.96,
+        "raw": "268.76\n251.96",
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": 191.97,
+        "raw": "191.97",
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 180.45,
+        "raw": "180.45",
+        "confidence": 1.0
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 1.0
+      },
+      "amount": {
+        "value": 189.47,
+        "raw": "189.47",
+        "confidence": 1.0
+      }
+    }
+  ],
+  "totals": {
+    "sub_total": {
+      "value": null,
+      "raw": null,
+      "confidence": 1.0
+    },
+    "total_discount": {
+      "value": null,
+      "raw": null,
+      "confidence": 1.0
+    },
+    "total_cgst": {
+      "value": null,
+      "raw": null,
+      "confidence": 1.0
+    },
+    "total_sgst": {
+      "value": null,
+      "raw": null,
+      "confidence": 1.0
+    },
+    "round_off": {
+      "value": null,
+      "raw": null,
+      "confidence": 1.0
+    },
+    "grand_total": {
+      "value": null,
+      "raw": null,
+      "confidence": 1.0
+    }
+  },
+  "flags": [],
+  "model_version": "gemini-2.5-flash"
+}

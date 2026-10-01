@@ -1,0 +1,218 @@
+{
+  "supplier_name": "SASTASUNDAR HEALTHBUDDY LIMITED",
+  "supplier_gstin": "19AAHCM0651P1ZO",
+  "bill_no": "443TB2028895",
+  "bill_date": "2026-09-22",
+  "notes": null,
+  "taxable_amount": 6181.34,
+  "cgst_amount": 223.06,
+  "sgst_amount": 223.06,
+  "total_amount": 6622.07,
+  "items": [
+    {
+      "medicine_name": "ATOCOR 40 MG TABLET (15 TAB)",
+      "mrp": "236.97",
+      "quantity": "2",
+      "batch_number": "E2601493",
+      "expiry_date": "2029-06",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "222.75",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "BETADINE GARGLE 50 ML",
+      "mrp": "152.38",
+      "quantity": "1",
+      "batch_number": "GD06826",
+      "expiry_date": "2027-09",
+      "hsn_code": "30045034",
+      "gst": "5",
+      "rate": "143.24",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "CONCOR 5 MG TABLET (10 TAB)",
+      "mrp": "110.77",
+      "quantity": "1",
+      "batch_number": "M07AM26085",
+      "expiry_date": "2028-04",
+      "hsn_code": "30049079",
+      "gst": "5",
+      "rate": "104.12",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "DYTOR 10 MG TABLET (15 TAB)",
+      "mrp": "83.43",
+      "quantity": "1",
+      "batch_number": "6GK0435",
+      "expiry_date": "2028-03",
+      "hsn_code": "30049079",
+      "gst": "5",
+      "rate": "83.43",
+      "discount": "0.00"
+    },
+    {
+      "medicine_name": "ECOSPRIN AV 75/40 MG CAPSULE (10 CAP)",
+      "mrp": "165.38",
+      "quantity": "2",
+      "batch_number": "28028634",
+      "expiry_date": "2027-11",
+      "hsn_code": "30049062",
+      "gst": "5",
+      "rate": "158.76",
+      "discount": "4.00"
+    },
+    {
+      "medicine_name": "FEBUTAZ 80 TABLET (15 TAB)",
+      "mrp": "313.92",
+      "quantity": "1",
+      "batch_number": "SIH0303B",
+      "expiry_date": "2028-08",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "295.08",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "FERIUM XT 15 TABLETS",
+      "mrp": "266.10",
+      "quantity": "1",
+      "batch_number": "E16DG26008",
+      "expiry_date": "2028-05",
+      "hsn_code": "30045020",
+      "gst": "5",
+      "rate": "250.13",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "GEMER 2 MG TABLET (15 TAB)",
+      "mrp": "180.71",
+      "quantity": "1",
+      "batch_number": "GTH2249A",
+      "expiry_date": "2027-06",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "169.87",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "GLYCOHALE FB ROTACAPS (30 CAP)",
+      "mrp": "526.77",
+      "quantity": "1",
+      "batch_number": "3BA1346",
+      "expiry_date": "2027-11",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "495.16",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "JITOLUCO 1% CREAM 30 G",
+      "mrp": "63.05",
+      "quantity": "1",
+      "batch_number": "5506",
+      "expiry_date": "2028-06",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "98.49",
+      "discount": "0.00"
+    },
+    {
+      "medicine_name": "ONDERO D 10 MG TABLET (10 TAB)",
+      "mrp": "168.53",
+      "quantity": "2",
+      "batch_number": "EMV281793",
+      "expiry_date": "2028-05",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "158.42",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "ONDERO DM 500 MG TABLET (10 TAB)",
+      "mrp": "180.61",
+      "quantity": "3",
+      "batch_number": "GT261647",
+      "expiry_date": "2028-06",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "169.77",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "PANTOCID 20 MG TABLET (15 TAB)",
+      "mrp": "98.58",
+      "quantity": "2",
+      "batch_number": "GTG3914A",
+      "expiry_date": "2028-06",
+      "hsn_code": "30049039",
+      "gst": "5",
+      "rate": "92.67",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "PANTODAC 20 MG TABLET (15 TAB)",
+      "mrp": "143.21",
+      "quantity": "2",
+      "batch_number": "IA01023A",
+      "expiry_date": "2028-08",
+      "hsn_code": "30049039",
+      "gst": "5",
+      "rate": "134.62",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "PROLOMET AM 25 MG TABLET (10 TAB)",
+      "mrp": "100.00",
+      "quantity": "3",
+      "batch_number": "SIH0857A",
+      "expiry_date": "2028-04",
+      "hsn_code": "30049079",
+      "gst": "5",
+      "rate": "94.00",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "VALENTAS 100 TABLET (14 TAB)",
+      "mrp": "464.42",
+      "quantity": "4",
+      "batch_number": "UC01556",
+      "expiry_date": "2028-05",
+      "hsn_code": "30049099",
+      "gst": "12",
+      "rate": "436.55",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "VALENTAS 50 MG TABLET (14 TAB)",
+      "mrp": "301.24",
+      "quantity": "1",
+      "batch_number": "UC01450",
+      "expiry_date": "2028-05",
+      "hsn_code": "30049099",
+      "gst": "12",
+      "rate": "283.17",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "ZORYL 1 MG TABLET (15 TAB)",
+      "mrp": "45.36",
+      "quantity": "2",
+      "batch_number": "N2601421",
+      "expiry_date": "2028-04",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "42.84",
+      "discount": "6.00"
+    }
+  ],
+  "status": "needs_review",
+  "overall_confidence": 1.0,
+  "flags": [
+    "Discrepancy found: Sum of (Taxable Amount + CGST Amount + SGST Amount) = 6627.46, but Sum of Total Amount column = 6622.07. Values extracted as printed in their respective columns.",
+    "reconciliation: tax consistency check does not reconcile: taxable_amount (6181.34) + cgst_amount (223.06) + sgst_amount (223.06) = 6627.46 differs from total_amount (6622.07) by 5.39 (exceeds +-1 unit tolerance)"
+  ],
+  "model_version": "gemini-2.5-flash"
+}

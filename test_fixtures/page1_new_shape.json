@@ -1,0 +1,220 @@
+{
+  "supplier_name": "SASTASUNDAR HEALTHBUDDY LIMITED",
+  "supplier_gstin": "19AAHCM0651P1ZO",
+  "bill_no": "443TB1904436",
+  "bill_date": "2026-09-13",
+  "notes": null,
+  "taxable_amount": null,
+  "cgst_amount": null,
+  "sgst_amount": null,
+  "total_amount": null,
+  "items": [
+    {
+      "medicine_name": "BIGGABA NT TABLET (10 TAB)",
+      "mrp": "224.45",
+      "quantity": "1",
+      "batch_number": "P3FZZ004",
+      "expiry_date": "2028-04",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "171.01",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "CAL 123 TABLET (15 TAB)",
+      "mrp": "215.00",
+      "quantity": "1",
+      "batch_number": "CALP26011",
+      "expiry_date": "2028-05",
+      "hsn_code": "30045034",
+      "gst": "5",
+      "rate": "163.81",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "CILAHEART TC 12.5 TABLET (10 TAB)",
+      "mrp": "124.77",
+      "quantity": "1",
+      "batch_number": "C3OAZ003",
+      "expiry_date": "2028-03",
+      "hsn_code": "30049079",
+      "gst": "5",
+      "rate": "95.07",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "CYP L SYRUP 200 ML",
+      "mrp": "149.82",
+      "quantity": "1",
+      "batch_number": "26S05019",
+      "expiry_date": "2028-05",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "114.15",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "CYRA D CAPSULE (10 CAP)",
+      "mrp": "51.00",
+      "quantity": "5",
+      "batch_number": "3CD1289",
+      "expiry_date": "2028-02",
+      "hsn_code": "30049039",
+      "gst": "5",
+      "rate": "38.87",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "CYRA IT CAPSULE (10 CAP)",
+      "mrp": "160.00",
+      "quantity": "1",
+      "batch_number": "08452607",
+      "expiry_date": "2028-04",
+      "hsn_code": "30049039",
+      "gst": "5",
+      "rate": "121.90",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "DUPHALAC (LEMON FLAVOR) ORAL SOLUTION 250 ML",
+      "mrp": "330.25",
+      "quantity": "1",
+      "batch_number": "913171D7",
+      "expiry_date": "2028-06",
+      "hsn_code": "30049088",
+      "gst": "5",
+      "rate": "251.62",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "ETOSHINE 90 MG TABLET (15 TAB)",
+      "mrp": "305.00",
+      "quantity": "1",
+      "batch_number": "SIH1033A",
+      "expiry_date": "2028-10",
+      "hsn_code": "30049088",
+      "gst": "5",
+      "rate": "232.38",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "FLEXON MR TABLET (10 TAB)",
+      "mrp": "32.20",
+      "quantity": "1",
+      "batch_number": "DPD260840",
+      "expiry_date": "2028-03",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "24.54",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "GEMER P 2 MG TABLET (10 TAB)",
+      "mrp": "216.58",
+      "quantity": "1",
+      "batch_number": "GTH2283A",
+      "expiry_date": "2028-06",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "165.01",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "GLIMY M2 FORTE TABLET (10 TAB)",
+      "mrp": "200.31",
+      "quantity": "2",
+      "batch_number": "E2601223",
+      "expiry_date": "2028-04",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "152.61",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "GLYCINORM OD 60 MG TABLET (15 TAB)",
+      "mrp": "266.20",
+      "quantity": "1",
+      "batch_number": "KXS0126005AP",
+      "expiry_date": "2029-05",
+      "hsn_code": "30043190",
+      "gst": "5",
+      "rate": "202.82",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "GRILINCTUS NEW SYRUP 100 ML",
+      "mrp": "146.20",
+      "quantity": "1",
+      "batch_number": "GN2176004",
+      "expiry_date": "2027-06",
+      "hsn_code": "30049031",
+      "gst": "5",
+      "rate": "111.40",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "ISTAMET D XR 1000 MG TABLET (7 TAB)",
+      "mrp": "168.00",
+      "quantity": "1",
+      "batch_number": "GTH2397A",
+      "expiry_date": "2028-07",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "128.00",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "LIVOGEN CAPSULETABS (15 TAB)",
+      "mrp": "104.43",
+      "quantity": "1",
+      "batch_number": "8127C84206",
+      "expiry_date": "2028-04",
+      "hsn_code": "30045010",
+      "gst": "5",
+      "rate": "79.56",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "LIZOLID 600 MG TABLET (10 TAB)",
+      "mrp": "383.00",
+      "quantity": "1",
+      "batch_number": "LZ2HBPTPP603",
+      "expiry_date": "2028-05",
+      "hsn_code": "30049087",
+      "gst": "5",
+      "rate": "291.81",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "LYSOFLAM TABLET (10 TAB)",
+      "mrp": "172.00",
+      "quantity": "1",
+      "batch_number": "LFT26034C",
+      "expiry_date": "2028-04",
+      "hsn_code": "30045010",
+      "gst": "5",
+      "rate": "131.05",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "NITROLONG 2.6 MG TABLET (30 TAB)",
+      "mrp": "251.96",
+      "quantity": "1",
+      "batch_number": "B2HSZ094",
+      "expiry_date": "2028-04",
+      "hsn_code": "30049079",
+      "gst": "5",
+      "rate": "191.97",
+      "discount": "6.00"
+    }
+  ],
+  "status": "needs_review",
+  "overall_confidence": 0.9766,
+  "flags": [
+    "taxable_amount is null because the summary section is not visible in the provided images (only page 1 of 3).",
+    "cgst_amount is null because the summary section is not visible in the provided images (only page 1 of 3).",
+    "sgst_amount is null because the summary section is not visible in the provided images (only page 1 of 3).",
+    "total_amount is null because the summary section is not visible in the provided images (only page 1 of 3)."
+  ],
+  "model_version": "gemini-2.5-flash"
+}

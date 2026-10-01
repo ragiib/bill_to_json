@@ -1,0 +1,271 @@
+{
+  "exif_tag": null,
+  "detected_angle": 0,
+  "applied_rotation": 0,
+  "runs": [
+    {
+      "run": 1,
+      "status": "needs_review",
+      "overall_confidence": 0.9899,
+      "flags": [
+        "reconciliation: grand total mismatch: sub_total (3638.08) - discount (91.66) + CGST (91.66) + SGST (91.66) + round_off (-0.31) = 3729.43, but grand_total = 3821.00 (difference 91.57, exceeds +-1 unit tolerance)"
+      ],
+      "totals": {
+        "sub_total": 3638.08,
+        "total_discount": 91.66,
+        "total_cgst": 91.66,
+        "total_sgst": 91.66,
+        "round_off": -0.31,
+        "grand_total": 3821.0
+      },
+      "line_items": [
+        {
+          "desc": "CYTOGARD OD 80 MG CAPSULE (10 CAP)",
+          "batch": "AKM0044",
+          "qty": 3.0,
+          "mrp": 354.37,
+          "amount": 799.46
+        },
+        {
+          "desc": "FINE NERVE NTP TABLET (10 TAB)",
+          "batch": "AFG01B0B",
+          "qty": 1.0,
+          "mrp": 222.19,
+          "amount": 167.07
+        },
+        {
+          "desc": "GLIMY 1 MG TABLET (15 TAB)",
+          "batch": "E2601220",
+          "qty": 3.0,
+          "mrp": 59.53,
+          "amount": 134.3
+        },
+        {
+          "desc": "MONTEK 10 MG TABLET (10 TAB)",
+          "batch": "GTH1337/A",
+          "qty": 3.0,
+          "mrp": 176.65,
+          "amount": 398.5
+        },
+        {
+          "desc": "OLMY H 40 MG TABLET (10 TAB)",
+          "batch": "SB00314A",
+          "qty": 3.0,
+          "mrp": 424.08,
+          "amount": 956.71
+        },
+        {
+          "desc": "PAN D CAPSULE (15 CAP)",
+          "batch": "26441693",
+          "qty": 3.0,
+          "mrp": 281.9,
+          "amount": 590.82
+        },
+        {
+          "desc": "STATOR CV 20MG/75 MG CAPSULE (15 CAP)",
+          "batch": "WNM0018",
+          "qty": 3.0,
+          "mrp": 260.24,
+          "amount": 587.09
+        },
+        {
+          "desc": "TRYPTOMER 10 MG TABLET (30 TAB)",
+          "batch": "D2600240",
+          "qty": 3.0,
+          "mrp": 76.88,
+          "amount": 173.46
+        },
+        {
+          "desc": "COD CHARGES",
+          "batch": null,
+          "qty": 1.0,
+          "mrp": null,
+          "amount": 8.9
+        },
+        {
+          "desc": "PLATFORM FEES",
+          "batch": null,
+          "qty": 1.0,
+          "mrp": null,
+          "amount": 5.0
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "status": "needs_review",
+      "overall_confidence": 0.9899,
+      "flags": [
+        "reconciliation: grand total mismatch: sub_total (3638.08) - discount (91.66) + CGST (91.66) + SGST (91.66) + round_off (-0.31) = 3729.43, but grand_total = 3821.00 (difference 91.57, exceeds +-1 unit tolerance)"
+      ],
+      "totals": {
+        "sub_total": 3638.08,
+        "total_discount": 91.66,
+        "total_cgst": 91.66,
+        "total_sgst": 91.66,
+        "round_off": -0.31,
+        "grand_total": 3821.0
+      },
+      "line_items": [
+        {
+          "desc": "CYTOGARD OD 80 MG CAPSULE (10 CAP)",
+          "batch": "AKM0044",
+          "qty": 3.0,
+          "mrp": 354.37,
+          "amount": 799.46
+        },
+        {
+          "desc": "FINE NERVE NTP TABLET (10 TAB)",
+          "batch": "AFG01B0B",
+          "qty": 1.0,
+          "mrp": 222.19,
+          "amount": 167.07
+        },
+        {
+          "desc": "GLIMY 1 MG TABLET (15 TAB)",
+          "batch": "E2601220",
+          "qty": 3.0,
+          "mrp": 59.53,
+          "amount": 134.3
+        },
+        {
+          "desc": "MONTEK 10 MG TABLET (10 TAB)",
+          "batch": "GTH1337/A",
+          "qty": 3.0,
+          "mrp": 176.65,
+          "amount": 398.5
+        },
+        {
+          "desc": "OLMY H 40 MG TABLET (10 TAB)",
+          "batch": "SB00314A",
+          "qty": 3.0,
+          "mrp": 424.08,
+          "amount": 956.71
+        },
+        {
+          "desc": "PAN D CAPSULE (15 CAP)",
+          "batch": "26441693",
+          "qty": 3.0,
+          "mrp": 281.9,
+          "amount": 590.82
+        },
+        {
+          "desc": "STATOR CV 20MG/75 MG CAPSULE (15 CAP)",
+          "batch": "WNM0018",
+          "qty": 3.0,
+          "mrp": 260.24,
+          "amount": 587.09
+        },
+        {
+          "desc": "TRYPTOMER 10 MG TABLET (30 TAB)",
+          "batch": "D2600240",
+          "qty": 3.0,
+          "mrp": 76.88,
+          "amount": 173.46
+        },
+        {
+          "desc": "COD CHARGES",
+          "batch": null,
+          "qty": 1.0,
+          "mrp": null,
+          "amount": 8.9
+        },
+        {
+          "desc": "PLATFORM FEES",
+          "batch": null,
+          "qty": 1.0,
+          "mrp": null,
+          "amount": 5.0
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "status": "needs_review",
+      "overall_confidence": 0.9899,
+      "flags": [
+        "reconciliation: grand total mismatch: sub_total (3638.08) - discount (91.66) + CGST (91.66) + SGST (91.66) + round_off (-0.31) = 3729.43, but grand_total = 3821.00 (difference 91.57, exceeds +-1 unit tolerance)"
+      ],
+      "totals": {
+        "sub_total": 3638.08,
+        "total_discount": 91.66,
+        "total_cgst": 91.66,
+        "total_sgst": 91.66,
+        "round_off": -0.31,
+        "grand_total": 3821.0
+      },
+      "line_items": [
+        {
+          "desc": "CYTOGARD OD 80 MG CAPSULE (10 CAP)",
+          "batch": "AKM0044",
+          "qty": 3.0,
+          "mrp": 354.37,
+          "amount": 799.46
+        },
+        {
+          "desc": "FINE NERVE NTP TABLET (10 TAB)",
+          "batch": "AFG01B0B",
+          "qty": 1.0,
+          "mrp": 222.19,
+          "amount": 167.07
+        },
+        {
+          "desc": "GLIMY 1 MG TABLET (15 TAB)",
+          "batch": "E2601220",
+          "qty": 3.0,
+          "mrp": 59.53,
+          "amount": 134.3
+        },
+        {
+          "desc": "MONTEK 10 MG TABLET (10 TAB)",
+          "batch": "GTH1337/A",
+          "qty": 3.0,
+          "mrp": 176.65,
+          "amount": 398.5
+        },
+        {
+          "desc": "OLMY H 40 MG TABLET (10 TAB)",
+          "batch": "SB00314A",
+          "qty": 3.0,
+          "mrp": 424.08,
+          "amount": 956.71
+        },
+        {
+          "desc": "PAN D CAPSULE (15 CAP)",
+          "batch": "26441693",
+          "qty": 3.0,
+          "mrp": 281.9,
+          "amount": 590.82
+        },
+        {
+          "desc": "STATOR CV 20MG/75 MG CAPSULE (15 CAP)",
+          "batch": "WNM0018",
+          "qty": 3.0,
+          "mrp": 260.24,
+          "amount": 587.09
+        },
+        {
+          "desc": "TRYPTOMER 10 MG TABLET (30 TAB)",
+          "batch": "D2600240",
+          "qty": 3.0,
+          "mrp": 76.88,
+          "amount": 173.46
+        },
+        {
+          "desc": "COD CHARGES",
+          "batch": null,
+          "qty": 1.0,
+          "mrp": null,
+          "amount": 8.9
+        },
+        {
+          "desc": "PLATFORM FEES",
+          "batch": null,
+          "qty": 1.0,
+          "mrp": null,
+          "amount": 5.0
+        }
+      ]
+    }
+  ]
+}

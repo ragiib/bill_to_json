@@ -1,0 +1,105 @@
+{
+  "supplier_name": "JYOTSNA MEDICAL AGENCY LLP",
+  "supplier_gstin": "19AARFJ7563J1ZI",
+  "bill_no": "260000730084592",
+  "bill_date": "2026-09-02",
+  "notes": "CHEQUE BOUNCE CHARGE 400.00 AS ALL SUBJECT TO BERHAMPORE JURISDICTION ONLY",
+  "taxable_amount": 958.4,
+  "cgst_amount": 23.97,
+  "sgst_amount": 23.97,
+  "total_amount": 1006.0,
+  "items": [
+    {
+      "medicine_name": "LIBRAX TAB",
+      "mrp": "223.79",
+      "quantity": "1",
+      "batch_number": "LXC26014",
+      "expiry_date": "2026-08",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "175.03",
+      "discount": "0.00"
+    },
+    {
+      "medicine_name": "ZAPIZ 1",
+      "mrp": "76.85",
+      "quantity": "1",
+      "batch_number": "K200902",
+      "expiry_date": "2029-06",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "58.55",
+      "discount": "0.00"
+    },
+    {
+      "medicine_name": "METROGYL 400 MG",
+      "mrp": "32.70",
+      "quantity": "5",
+      "batch_number": "TME0043",
+      "expiry_date": "2030-03",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "26.90",
+      "discount": "0.00"
+    },
+    {
+      "medicine_name": "GLIZID TOTAL P 15 TAB",
+      "mrp": "196.45",
+      "quantity": "1",
+      "batch_number": "E1CTZ026",
+      "expiry_date": "2029-03",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "149.98",
+      "discount": "0.00"
+    },
+    {
+      "medicine_name": "CONCOR 5",
+      "mrp": "145.00",
+      "quantity": "1",
+      "batch_number": "M07AM26069",
+      "expiry_date": "2028-04",
+      "hsn_code": "30049072",
+      "gst": "5",
+      "rate": "110.77",
+      "discount": "0.00"
+    },
+    {
+      "medicine_name": "CONCOR COR 2.5",
+      "mrp": "97.40",
+      "quantity": "2",
+      "batch_number": "M07AL26065",
+      "expiry_date": "2026-04",
+      "hsn_code": "30049072",
+      "gst": "5",
+      "rate": "74.21",
+      "discount": "0.00"
+    },
+    {
+      "medicine_name": "CORBIS 2.5",
+      "mrp": "115.55",
+      "quantity": "1",
+      "batch_number": "DFW32001A",
+      "expiry_date": "2025-05",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "88.07",
+      "discount": "0.00"
+    },
+    {
+      "medicine_name": "SHELCAL HD TAB 15S",
+      "mrp": "170.00",
+      "quantity": "1",
+      "batch_number": "DMB526020A",
+      "expiry_date": "2025-06",
+      "hsn_code": "30045039",
+      "gst": "5",
+      "rate": "130.21",
+      "discount": "0.00"
+    }
+  ],
+  "status": "completed",
+  "overall_confidence": 1.0,
+  "flags": [],
+  "model_version": "gemini-2.5-flash"
+}

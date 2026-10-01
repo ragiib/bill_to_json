@@ -1,0 +1,939 @@
+{
+  "new_bill": [
+    {
+      "run": 1,
+      "elapsed": 101.30429315567017,
+      "status": "needs_review",
+      "overall_confidence": 0.9919,
+      "flags": [
+        "Line 6: Net Rate (295.08) does not match Rate (295.08) * (1 - Discount % (6.00%)) = 277.37. Using printed Net Rate, confidence lowered.",
+        "Line 10: Taxable Value and Amount are misaligned and not clearly visible for this item. Setting value to null and confidence low.",
+        "Line 11: Taxable Value (318.84) does not exactly match Quantity (2) * Net Rate (158.42) = 316.84. Difference is 2.00. Using printed values.",
+        "Line 16: Rate value is not clearly visible for this item. Derived from Net Rate and Discount. Setting raw to null and confidence to 0.8.",
+        "Line 17: Rate value is not clearly visible for this item. Derived from Net Rate and Discount. Setting raw to null and confidence to 0.8.",
+        "Totals section not found on the provided page (Page 1 of 2)."
+      ],
+      "line_items_count": 18,
+      "row_1": {
+        "description": {
+          "value": "ATOCOR 40 MG TABLET (15 TAB)",
+          "raw": "ATOCOR 40 MG TABLET (15 TAB)",
+          "confidence": 1.0,
+          "source_column": "Description of Goods"
+        },
+        "hsn_code": {
+          "value": "30049099",
+          "raw": "30049099",
+          "confidence": 1.0,
+          "source_column": "Hsn/Sac"
+        },
+        "quantity": {
+          "value": 2.0,
+          "raw": "2",
+          "confidence": 1.0,
+          "source_column": "Qty"
+        },
+        "unit": {
+          "value": "STRIP",
+          "raw": "STRIP",
+          "confidence": 1.0,
+          "source_column": "Unit"
+        },
+        "batch": {
+          "value": "E2601493",
+          "raw": "E2601493",
+          "confidence": 1.0,
+          "source_column": "Batch"
+        },
+        "expiry_date": {
+          "value": "06/29",
+          "raw": "06/29",
+          "confidence": 1.0,
+          "source_column": "Exp Dt"
+        },
+        "mrp": {
+          "value": 311.02,
+          "raw": "311.02",
+          "confidence": 1.0,
+          "source_column": "Mrp"
+        },
+        "rate": {
+          "value": 236.97,
+          "raw": "236.97",
+          "confidence": 1.0,
+          "source_column": "Rate"
+        },
+        "net_rate": {
+          "value": 222.75,
+          "raw": "222.75",
+          "confidence": 1.0,
+          "source_column": "Net Rate"
+        },
+        "discount_pct": {
+          "value": 6.0,
+          "raw": "6.00",
+          "confidence": 1.0,
+          "source_column": "Disc %"
+        },
+        "taxable_value": {
+          "value": 445.5,
+          "raw": "445.50",
+          "confidence": 1.0,
+          "source_column": "Taxable Value"
+        },
+        "cgst_pct": {
+          "value": 2.5,
+          "raw": "2.50",
+          "confidence": 1.0,
+          "source_column": "CGST %"
+        },
+        "sgst_pct": {
+          "value": 2.5,
+          "raw": "2.50",
+          "confidence": 1.0,
+          "source_column": "SGST %"
+        },
+        "amount": {
+          "value": 467.76,
+          "raw": "467.76",
+          "confidence": 1.0,
+          "source_column": "Amount"
+        }
+      }
+    },
+    {
+      "run": 2,
+      "elapsed": 104.3768801689148,
+      "status": "needs_review",
+      "overall_confidence": 0.9919,
+      "flags": [
+        "Line 6: Net Rate (295.08) does not match Rate (295.08) * (1 - Discount % (6.00%)) = 277.37. Using printed Net Rate, confidence lowered.",
+        "Line 10: Taxable Value and Amount are misaligned and not clearly visible for this item. Setting value to null and confidence low.",
+        "Line 11: Taxable Value (318.84) does not exactly match Quantity (2) * Net Rate (158.42) = 316.84. Difference is 2.00. Using printed values.",
+        "Line 16: Rate value is not clearly visible for this item. Derived from Net Rate and Discount. Setting raw to null and confidence to 0.8.",
+        "Line 17: Rate value is not clearly visible for this item. Derived from Net Rate and Discount. Setting raw to null and confidence to 0.8.",
+        "Totals section not found on the provided page (Page 1 of 2)."
+      ],
+      "line_items_count": 18,
+      "row_1": {
+        "description": {
+          "value": "ATOCOR 40 MG TABLET (15 TAB)",
+          "raw": "ATOCOR 40 MG TABLET (15 TAB)",
+          "confidence": 1.0,
+          "source_column": "Description of Goods"
+        },
+        "hsn_code": {
+          "value": "30049099",
+          "raw": "30049099",
+          "confidence": 1.0,
+          "source_column": "Hsn/Sac"
+        },
+        "quantity": {
+          "value": 2.0,
+          "raw": "2",
+          "confidence": 1.0,
+          "source_column": "Qty"
+        },
+        "unit": {
+          "value": "STRIP",
+          "raw": "STRIP",
+          "confidence": 1.0,
+          "source_column": "Unit"
+        },
+        "batch": {
+          "value": "E2601493",
+          "raw": "E2601493",
+          "confidence": 1.0,
+          "source_column": "Batch"
+        },
+        "expiry_date": {
+          "value": "06/29",
+          "raw": "06/29",
+          "confidence": 1.0,
+          "source_column": "Exp Dt"
+        },
+        "mrp": {
+          "value": 311.02,
+          "raw": "311.02",
+          "confidence": 1.0,
+          "source_column": "Mrp"
+        },
+        "rate": {
+          "value": 236.97,
+          "raw": "236.97",
+          "confidence": 1.0,
+          "source_column": "Rate"
+        },
+        "net_rate": {
+          "value": 222.75,
+          "raw": "222.75",
+          "confidence": 1.0,
+          "source_column": "Net Rate"
+        },
+        "discount_pct": {
+          "value": 6.0,
+          "raw": "6.00",
+          "confidence": 1.0,
+          "source_column": "Disc %"
+        },
+        "taxable_value": {
+          "value": 445.5,
+          "raw": "445.50",
+          "confidence": 1.0,
+          "source_column": "Taxable Value"
+        },
+        "cgst_pct": {
+          "value": 2.5,
+          "raw": "2.50",
+          "confidence": 1.0,
+          "source_column": "CGST %"
+        },
+        "sgst_pct": {
+          "value": 2.5,
+          "raw": "2.50",
+          "confidence": 1.0,
+          "source_column": "SGST %"
+        },
+        "amount": {
+          "value": 467.76,
+          "raw": "467.76",
+          "confidence": 1.0,
+          "source_column": "Amount"
+        }
+      }
+    },
+    {
+      "run": 3,
+      "elapsed": 96.36709856987,
+      "status": "needs_review",
+      "overall_confidence": 0.9919,
+      "flags": [
+        "Line 6: Net Rate (295.08) does not match Rate (295.08) * (1 - Discount % (6.00%)) = 277.37. Using printed Net Rate, confidence lowered.",
+        "Line 10: Taxable Value and Amount are misaligned and not clearly visible for this item. Setting value to null and confidence low.",
+        "Line 11: Taxable Value (318.84) does not exactly match Quantity (2) * Net Rate (158.42) = 316.84. Difference is 2.00. Using printed values.",
+        "Line 16: Rate value is not clearly visible for this item. Derived from Net Rate and Discount. Setting raw to null and confidence to 0.8.",
+        "Line 17: Rate value is not clearly visible for this item. Derived from Net Rate and Discount. Setting raw to null and confidence to 0.8.",
+        "Totals section not found on the provided page (Page 1 of 2)."
+      ],
+      "line_items_count": 18,
+      "row_1": {
+        "description": {
+          "value": "ATOCOR 40 MG TABLET (15 TAB)",
+          "raw": "ATOCOR 40 MG TABLET (15 TAB)",
+          "confidence": 1.0,
+          "source_column": "Description of Goods"
+        },
+        "hsn_code": {
+          "value": "30049099",
+          "raw": "30049099",
+          "confidence": 1.0,
+          "source_column": "Hsn/Sac"
+        },
+        "quantity": {
+          "value": 2.0,
+          "raw": "2",
+          "confidence": 1.0,
+          "source_column": "Qty"
+        },
+        "unit": {
+          "value": "STRIP",
+          "raw": "STRIP",
+          "confidence": 1.0,
+          "source_column": "Unit"
+        },
+        "batch": {
+          "value": "E2601493",
+          "raw": "E2601493",
+          "confidence": 1.0,
+          "source_column": "Batch"
+        },
+        "expiry_date": {
+          "value": "06/29",
+          "raw": "06/29",
+          "confidence": 1.0,
+          "source_column": "Exp Dt"
+        },
+        "mrp": {
+          "value": 311.02,
+          "raw": "311.02",
+          "confidence": 1.0,
+          "source_column": "Mrp"
+        },
+        "rate": {
+          "value": 236.97,
+          "raw": "236.97",
+          "confidence": 1.0,
+          "source_column": "Rate"
+        },
+        "net_rate": {
+          "value": 222.75,
+          "raw": "222.75",
+          "confidence": 1.0,
+          "source_column": "Net Rate"
+        },
+        "discount_pct": {
+          "value": 6.0,
+          "raw": "6.00",
+          "confidence": 1.0,
+          "source_column": "Disc %"
+        },
+        "taxable_value": {
+          "value": 445.5,
+          "raw": "445.50",
+          "confidence": 1.0,
+          "source_column": "Taxable Value"
+        },
+        "cgst_pct": {
+          "value": 2.5,
+          "raw": "2.50",
+          "confidence": 1.0,
+          "source_column": "CGST %"
+        },
+        "sgst_pct": {
+          "value": 2.5,
+          "raw": "2.50",
+          "confidence": 1.0,
+          "source_column": "SGST %"
+        },
+        "amount": {
+          "value": 467.76,
+          "raw": "467.76",
+          "confidence": 1.0,
+          "source_column": "Amount"
+        }
+      }
+    }
+  ],
+  "bill_1": [
+    {
+      "run": 1,
+      "elapsed": 77.69127774238586,
+      "status": "needs_review",
+      "overall_confidence": 1.0,
+      "flags": [
+        "Line item 1: 'Rate' * 'Quantity' (175.03) does not match 'Taxable Value' (168.03) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 2: 'Rate' * 'Quantity' (58.55) does not match 'Taxable Value' (56.21) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 3: 'Rate' * 'Quantity' (26.90) does not match 'Taxable Value' (26.00) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 4: 'Rate' * 'Quantity' (149.58) does not match 'Taxable Value' (143.96) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 5: 'Rate' * 'Quantity' (110.77) does not match 'Taxable Value' (106.34) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 6: 'Rate' * 'Quantity' (148.42) does not match 'Taxable Value' (142.48) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 7: 'Rate' * 'Quantity' (88.07) does not match 'Taxable Value' (84.55) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 8: 'Rate' * 'Quantity' (130.21) does not match 'Taxable Value' (125.00) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Sum of line item 'taxable_value' (852.57) does not match the '5% Taxable' value (958.40) in the GST summary table, indicating a discrepancy in how taxable values are reported or calculated.",
+        "reconciliation: line_item[0] (LIBRAX TAB): line-item math does not reconcile with available fields (expected 175.03, taxable_value 168.03)",
+        "reconciliation: line_item[1] (ZAPIZ 1): line-item math does not reconcile with available fields (expected 58.55, taxable_value 56.21)",
+        "reconciliation: line_item[2] (METROGYL 400 MG): line-item math does not reconcile with available fields (expected 26.90, taxable_value 26.00)",
+        "reconciliation: line_item[3] (GLIZID TOTAL P): line-item math does not reconcile with available fields (expected 149.58, taxable_value 143.96)",
+        "reconciliation: line_item[4] (CONCOR 5): line-item math does not reconcile with available fields (expected 110.77, taxable_value 106.34)",
+        "reconciliation: line_item[5] (CONCOR COR 2.5): line-item math does not reconcile with available fields (expected 148.42, taxable_value 142.48)",
+        "reconciliation: line_item[6] (CORBIS 2.5): line-item math does not reconcile with available fields (expected 88.07, taxable_value 84.55)",
+        "reconciliation: line_item[7] (SHELCAL HD TAB): line-item math does not reconcile with available fields (expected 130.21, taxable_value 125.00)",
+        "reconciliation: possible incomplete document \u2014 visible line items sum to 895.19 but sub_total = 995.53 (10.1% shortfall). This may indicate missing pages rather than a calculation error; please verify all bill pages were uploaded."
+      ],
+      "line_items_count": 8,
+      "row_1": {
+        "description": {
+          "value": "LIBRAX TAB",
+          "raw": "LIBRAX TAB",
+          "confidence": 1.0,
+          "source_column": "Item Description"
+        },
+        "hsn_code": {
+          "value": "30049099",
+          "raw": "30049099",
+          "confidence": 1.0,
+          "source_column": "HSN/SAC Code"
+        },
+        "quantity": {
+          "value": 1.0,
+          "raw": "1",
+          "confidence": 1.0,
+          "source_column": "Billed"
+        },
+        "unit": {
+          "value": "T",
+          "raw": "20 T",
+          "confidence": 1.0,
+          "source_column": "Pack"
+        },
+        "batch": {
+          "value": "LXC26014",
+          "raw": "LXC26014",
+          "confidence": 1.0,
+          "source_column": "Batch"
+        },
+        "expiry_date": {
+          "value": "2028-02",
+          "raw": "02-28",
+          "confidence": 1.0,
+          "source_column": "Exp Date"
+        },
+        "mrp": {
+          "value": 223.79,
+          "raw": "223.79",
+          "confidence": 1.0,
+          "source_column": "M.R.P"
+        },
+        "rate": {
+          "value": 175.03,
+          "raw": "175.03",
+          "confidence": 1.0,
+          "source_column": "Rate"
+        },
+        "net_rate": {
+          "value": null,
+          "raw": null,
+          "confidence": 1.0,
+          "source_column": null
+        },
+        "discount_pct": {
+          "value": 0.0,
+          "raw": "0.00",
+          "confidence": 1.0,
+          "source_column": "Sch Disc"
+        },
+        "taxable_value": {
+          "value": 168.03,
+          "raw": "168.03",
+          "confidence": 1.0,
+          "source_column": "Taxable Value"
+        },
+        "cgst_pct": {
+          "value": 2.5,
+          "raw": "5.00",
+          "confidence": 1.0,
+          "source_column": "GST Rate"
+        },
+        "sgst_pct": {
+          "value": 2.5,
+          "raw": "5.00",
+          "confidence": 1.0,
+          "source_column": "GST Rate"
+        },
+        "amount": {
+          "value": 176.43,
+          "raw": "176.43",
+          "confidence": 1.0,
+          "source_column": "Amt"
+        }
+      }
+    },
+    {
+      "run": 2,
+      "elapsed": 97.94730758666992,
+      "status": "needs_review",
+      "overall_confidence": 1.0,
+      "flags": [
+        "Line item 1: 'Rate' * 'Quantity' (175.03) does not match 'Taxable Value' (168.03) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 2: 'Rate' * 'Quantity' (58.55) does not match 'Taxable Value' (56.21) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 3: 'Rate' * 'Quantity' (26.90) does not match 'Taxable Value' (26.00) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 4: 'Rate' * 'Quantity' (149.58) does not match 'Taxable Value' (143.96) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 5: 'Rate' * 'Quantity' (110.77) does not match 'Taxable Value' (106.34) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 6: 'Rate' * 'Quantity' (148.42) does not match 'Taxable Value' (142.48) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 7: 'Rate' * 'Quantity' (88.07) does not match 'Taxable Value' (84.55) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 8: 'Rate' * 'Quantity' (130.21) does not match 'Taxable Value' (125.00) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Sum of line item 'taxable_value' (852.57) does not match the '5% Taxable' value (958.40) in the GST summary table, indicating a discrepancy in how taxable values are reported or calculated.",
+        "reconciliation: line_item[0] (LIBRAX TAB): line-item math does not reconcile with available fields (expected 175.03, taxable_value 168.03)",
+        "reconciliation: line_item[1] (ZAPIZ 1): line-item math does not reconcile with available fields (expected 58.55, taxable_value 56.21)",
+        "reconciliation: line_item[2] (METROGYL 400 MG): line-item math does not reconcile with available fields (expected 26.90, taxable_value 26.00)",
+        "reconciliation: line_item[3] (GLIZID TOTAL P): line-item math does not reconcile with available fields (expected 149.58, taxable_value 143.96)",
+        "reconciliation: line_item[4] (CONCOR 5): line-item math does not reconcile with available fields (expected 110.77, taxable_value 106.34)",
+        "reconciliation: line_item[5] (CONCOR COR 2.5): line-item math does not reconcile with available fields (expected 148.42, taxable_value 142.48)",
+        "reconciliation: line_item[6] (CORBIS 2.5): line-item math does not reconcile with available fields (expected 88.07, taxable_value 84.55)",
+        "reconciliation: line_item[7] (SHELCAL HD TAB): line-item math does not reconcile with available fields (expected 130.21, taxable_value 125.00)",
+        "reconciliation: possible incomplete document \u2014 visible line items sum to 895.19 but sub_total = 995.53 (10.1% shortfall). This may indicate missing pages rather than a calculation error; please verify all bill pages were uploaded."
+      ],
+      "line_items_count": 8,
+      "row_1": {
+        "description": {
+          "value": "LIBRAX TAB",
+          "raw": "LIBRAX TAB",
+          "confidence": 1.0,
+          "source_column": "Item Description"
+        },
+        "hsn_code": {
+          "value": "30049099",
+          "raw": "30049099",
+          "confidence": 1.0,
+          "source_column": "HSN/SAC Code"
+        },
+        "quantity": {
+          "value": 1.0,
+          "raw": "1",
+          "confidence": 1.0,
+          "source_column": "Billed"
+        },
+        "unit": {
+          "value": "T",
+          "raw": "20 T",
+          "confidence": 1.0,
+          "source_column": "Pack"
+        },
+        "batch": {
+          "value": "LXC26014",
+          "raw": "LXC26014",
+          "confidence": 1.0,
+          "source_column": "Batch"
+        },
+        "expiry_date": {
+          "value": "2028-02",
+          "raw": "02-28",
+          "confidence": 1.0,
+          "source_column": "Exp Date"
+        },
+        "mrp": {
+          "value": 223.79,
+          "raw": "223.79",
+          "confidence": 1.0,
+          "source_column": "M.R.P"
+        },
+        "rate": {
+          "value": 175.03,
+          "raw": "175.03",
+          "confidence": 1.0,
+          "source_column": "Rate"
+        },
+        "net_rate": {
+          "value": null,
+          "raw": null,
+          "confidence": 1.0,
+          "source_column": null
+        },
+        "discount_pct": {
+          "value": 0.0,
+          "raw": "0.00",
+          "confidence": 1.0,
+          "source_column": "Sch Disc"
+        },
+        "taxable_value": {
+          "value": 168.03,
+          "raw": "168.03",
+          "confidence": 1.0,
+          "source_column": "Taxable Value"
+        },
+        "cgst_pct": {
+          "value": 2.5,
+          "raw": "5.00",
+          "confidence": 1.0,
+          "source_column": "GST Rate"
+        },
+        "sgst_pct": {
+          "value": 2.5,
+          "raw": "5.00",
+          "confidence": 1.0,
+          "source_column": "GST Rate"
+        },
+        "amount": {
+          "value": 176.43,
+          "raw": "176.43",
+          "confidence": 1.0,
+          "source_column": "Amt"
+        }
+      }
+    },
+    {
+      "run": 3,
+      "elapsed": 90.56307768821716,
+      "status": "needs_review",
+      "overall_confidence": 1.0,
+      "flags": [
+        "Line item 1: 'Rate' * 'Quantity' (175.03) does not match 'Taxable Value' (168.03) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 2: 'Rate' * 'Quantity' (58.55) does not match 'Taxable Value' (56.21) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 3: 'Rate' * 'Quantity' (26.90) does not match 'Taxable Value' (26.00) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 4: 'Rate' * 'Quantity' (149.58) does not match 'Taxable Value' (143.96) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 5: 'Rate' * 'Quantity' (110.77) does not match 'Taxable Value' (106.34) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 6: 'Rate' * 'Quantity' (148.42) does not match 'Taxable Value' (142.48) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 7: 'Rate' * 'Quantity' (88.07) does not match 'Taxable Value' (84.55) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Line item 8: 'Rate' * 'Quantity' (130.21) does not match 'Taxable Value' (125.00) despite 'Sch Disc' being 0.00. An implicit discount or different calculation method is used.",
+        "Sum of line item 'taxable_value' (852.57) does not match the '5% Taxable' value (958.40) in the GST summary table, indicating a discrepancy in how taxable values are reported or calculated.",
+        "reconciliation: line_item[0] (LIBRAX TAB): line-item math does not reconcile with available fields (expected 175.03, taxable_value 168.03)",
+        "reconciliation: line_item[1] (ZAPIZ 1): line-item math does not reconcile with available fields (expected 58.55, taxable_value 56.21)",
+        "reconciliation: line_item[2] (METROGYL 400 MG): line-item math does not reconcile with available fields (expected 26.90, taxable_value 26.00)",
+        "reconciliation: line_item[3] (GLIZID TOTAL P): line-item math does not reconcile with available fields (expected 149.58, taxable_value 143.96)",
+        "reconciliation: line_item[4] (CONCOR 5): line-item math does not reconcile with available fields (expected 110.77, taxable_value 106.34)",
+        "reconciliation: line_item[5] (CONCOR COR 2.5): line-item math does not reconcile with available fields (expected 148.42, taxable_value 142.48)",
+        "reconciliation: line_item[6] (CORBIS 2.5): line-item math does not reconcile with available fields (expected 88.07, taxable_value 84.55)",
+        "reconciliation: line_item[7] (SHELCAL HD TAB): line-item math does not reconcile with available fields (expected 130.21, taxable_value 125.00)",
+        "reconciliation: possible incomplete document \u2014 visible line items sum to 895.19 but sub_total = 995.53 (10.1% shortfall). This may indicate missing pages rather than a calculation error; please verify all bill pages were uploaded."
+      ],
+      "line_items_count": 8,
+      "row_1": {
+        "description": {
+          "value": "LIBRAX TAB",
+          "raw": "LIBRAX TAB",
+          "confidence": 1.0,
+          "source_column": "Item Description"
+        },
+        "hsn_code": {
+          "value": "30049099",
+          "raw": "30049099",
+          "confidence": 1.0,
+          "source_column": "HSN/SAC Code"
+        },
+        "quantity": {
+          "value": 1.0,
+          "raw": "1",
+          "confidence": 1.0,
+          "source_column": "Billed"
+        },
+        "unit": {
+          "value": "T",
+          "raw": "20 T",
+          "confidence": 1.0,
+          "source_column": "Pack"
+        },
+        "batch": {
+          "value": "LXC26014",
+          "raw": "LXC26014",
+          "confidence": 1.0,
+          "source_column": "Batch"
+        },
+        "expiry_date": {
+          "value": "2028-02",
+          "raw": "02-28",
+          "confidence": 1.0,
+          "source_column": "Exp Date"
+        },
+        "mrp": {
+          "value": 223.79,
+          "raw": "223.79",
+          "confidence": 1.0,
+          "source_column": "M.R.P"
+        },
+        "rate": {
+          "value": 175.03,
+          "raw": "175.03",
+          "confidence": 1.0,
+          "source_column": "Rate"
+        },
+        "net_rate": {
+          "value": null,
+          "raw": null,
+          "confidence": 1.0,
+          "source_column": null
+        },
+        "discount_pct": {
+          "value": 0.0,
+          "raw": "0.00",
+          "confidence": 1.0,
+          "source_column": "Sch Disc"
+        },
+        "taxable_value": {
+          "value": 168.03,
+          "raw": "168.03",
+          "confidence": 1.0,
+          "source_column": "Taxable Value"
+        },
+        "cgst_pct": {
+          "value": 2.5,
+          "raw": "5.00",
+          "confidence": 1.0,
+          "source_column": "GST Rate"
+        },
+        "sgst_pct": {
+          "value": 2.5,
+          "raw": "5.00",
+          "confidence": 1.0,
+          "source_column": "GST Rate"
+        },
+        "amount": {
+          "value": 176.43,
+          "raw": "176.43",
+          "confidence": 1.0,
+          "source_column": "Amt"
+        }
+      }
+    }
+  ],
+  "page1": [
+    {
+      "run": 1,
+      "elapsed": 101.12870383262634,
+      "status": "completed",
+      "overall_confidence": 0.9774,
+      "flags": [
+        "Line 1: Calculated amount (168.79) based on taxable value (160.75) and CGST/SGST (2.5% each) does not match printed amount (188.77).",
+        "Totals section not visible in the provided image(s)."
+      ],
+      "line_items_count": 18,
+      "row_1": {
+        "description": {
+          "value": "BIGGABA NT TABLET (10 TAB)",
+          "raw": "BIGGABA NT TABLET (10 TAB)",
+          "confidence": 1.0,
+          "source_column": "Description of Goods"
+        },
+        "hsn_code": {
+          "value": "30049099",
+          "raw": "30049099",
+          "confidence": 1.0,
+          "source_column": "Hsn / Sac"
+        },
+        "quantity": {
+          "value": 1.0,
+          "raw": "1",
+          "confidence": 1.0,
+          "source_column": "Qty"
+        },
+        "unit": {
+          "value": "STRIP",
+          "raw": "STRIP",
+          "confidence": 1.0,
+          "source_column": "Unit"
+        },
+        "batch": {
+          "value": "P3FZZ004",
+          "raw": "P3FZZ004",
+          "confidence": 1.0,
+          "source_column": "Batch"
+        },
+        "expiry_date": {
+          "value": "04/28",
+          "raw": "04/28",
+          "confidence": 1.0,
+          "source_column": "Exp Dt"
+        },
+        "mrp": {
+          "value": 224.45,
+          "raw": "224.45",
+          "confidence": 1.0,
+          "source_column": "Mrp"
+        },
+        "rate": {
+          "value": 171.01,
+          "raw": "171.01",
+          "confidence": 1.0,
+          "source_column": "Rate"
+        },
+        "net_rate": {
+          "value": 160.75,
+          "raw": "160.75",
+          "confidence": 1.0,
+          "source_column": "Net Rate"
+        },
+        "discount_pct": {
+          "value": 6.0,
+          "raw": "6.00",
+          "confidence": 1.0,
+          "source_column": "Disc %"
+        },
+        "taxable_value": {
+          "value": 160.75,
+          "raw": "160.75",
+          "confidence": 1.0,
+          "source_column": "Taxable Value"
+        },
+        "cgst_pct": {
+          "value": 2.5,
+          "raw": "2.50",
+          "confidence": 1.0,
+          "source_column": "CGST %"
+        },
+        "sgst_pct": {
+          "value": 2.5,
+          "raw": "2.50",
+          "confidence": 1.0,
+          "source_column": "SGST %"
+        },
+        "amount": {
+          "value": 188.77,
+          "raw": "188.77",
+          "confidence": 1.0,
+          "source_column": "Amount"
+        }
+      }
+    },
+    {
+      "run": 2,
+      "elapsed": 94.78460121154785,
+      "status": "completed",
+      "overall_confidence": 0.9983,
+      "flags": [
+        "Line item 1: Calculated amount (168.79) does not match printed amount (188.77) for BIGGABA NT TABLET (10 TAB). Taxable Value: 160.75, CGST%: 2.50, SGST%: 2.50. Extracted values are as seen on the bill."
+      ],
+      "line_items_count": 18,
+      "row_1": {
+        "description": {
+          "value": "BIGGABA NT TABLET (10 TAB)",
+          "raw": "BIGGABA NT TABLET (10 TAB)",
+          "confidence": 1.0,
+          "source_column": "Description of Goods"
+        },
+        "hsn_code": {
+          "value": "30049099",
+          "raw": "30049099",
+          "confidence": 1.0,
+          "source_column": "Hsn / Sac"
+        },
+        "quantity": {
+          "value": 1.0,
+          "raw": "1",
+          "confidence": 1.0,
+          "source_column": "Qty"
+        },
+        "unit": {
+          "value": "STRIP",
+          "raw": "STRIP",
+          "confidence": 1.0,
+          "source_column": "Unit"
+        },
+        "batch": {
+          "value": "P3FZZ004",
+          "raw": "P3FZZ004",
+          "confidence": 1.0,
+          "source_column": "Batch"
+        },
+        "expiry_date": {
+          "value": "04/28",
+          "raw": "04/28",
+          "confidence": 1.0,
+          "source_column": "Exp Dt"
+        },
+        "mrp": {
+          "value": 224.45,
+          "raw": "224.45",
+          "confidence": 1.0,
+          "source_column": "Mrp"
+        },
+        "rate": {
+          "value": 171.01,
+          "raw": "171.01",
+          "confidence": 1.0,
+          "source_column": "Rate"
+        },
+        "net_rate": {
+          "value": 160.75,
+          "raw": "160.75",
+          "confidence": 1.0,
+          "source_column": "Net Rate"
+        },
+        "discount_pct": {
+          "value": 6.0,
+          "raw": "6.00",
+          "confidence": 1.0,
+          "source_column": "Disc %"
+        },
+        "taxable_value": {
+          "value": 160.75,
+          "raw": "160.75",
+          "confidence": 0.8,
+          "source_column": "Taxable Value"
+        },
+        "cgst_pct": {
+          "value": 2.5,
+          "raw": "2.50",
+          "confidence": 1.0,
+          "source_column": "CGST %"
+        },
+        "sgst_pct": {
+          "value": 2.5,
+          "raw": "2.50",
+          "confidence": 1.0,
+          "source_column": "SGST %"
+        },
+        "amount": {
+          "value": 188.77,
+          "raw": "188.77",
+          "confidence": 0.8,
+          "source_column": "Amount"
+        }
+      }
+    },
+    {
+      "run": 3,
+      "elapsed": 89.84172105789185,
+      "status": "completed",
+      "overall_confidence": 0.9983,
+      "flags": [
+        "Line item 1: Calculated amount (168.79) does not match printed amount (188.77) for BIGGABA NT TABLET (10 TAB). Taxable Value: 160.75, CGST%: 2.50, SGST%: 2.50. Extracted values are as seen on the bill."
+      ],
+      "line_items_count": 18,
+      "row_1": {
+        "description": {
+          "value": "BIGGABA NT TABLET (10 TAB)",
+          "raw": "BIGGABA NT TABLET (10 TAB)",
+          "confidence": 1.0,
+          "source_column": "Description of Goods"
+        },
+        "hsn_code": {
+          "value": "30049099",
+          "raw": "30049099",
+          "confidence": 1.0,
+          "source_column": "Hsn / Sac"
+        },
+        "quantity": {
+          "value": 1.0,
+          "raw": "1",
+          "confidence": 1.0,
+          "source_column": "Qty"
+        },
+        "unit": {
+          "value": "STRIP",
+          "raw": "STRIP",
+          "confidence": 1.0,
+          "source_column": "Unit"
+        },
+        "batch": {
+          "value": "P3FZZ004",
+          "raw": "P3FZZ004",
+          "confidence": 1.0,
+          "source_column": "Batch"
+        },
+        "expiry_date": {
+          "value": "04/28",
+          "raw": "04/28",
+          "confidence": 1.0,
+          "source_column": "Exp Dt"
+        },
+        "mrp": {
+          "value": 224.45,
+          "raw": "224.45",
+          "confidence": 1.0,
+          "source_column": "Mrp"
+        },
+        "rate": {
+          "value": 171.01,
+          "raw": "171.01",
+          "confidence": 1.0,
+          "source_column": "Rate"
+        },
+        "net_rate": {
+          "value": 160.75,
+          "raw": "160.75",
+          "confidence": 1.0,
+          "source_column": "Net Rate"
+        },
+        "discount_pct": {
+          "value": 6.0,
+          "raw": "6.00",
+          "confidence": 1.0,
+          "source_column": "Disc %"
+        },
+        "taxable_value": {
+          "value": 160.75,
+          "raw": "160.75",
+          "confidence": 0.8,
+          "source_column": "Taxable Value"
+        },
+        "cgst_pct": {
+          "value": 2.5,
+          "raw": "2.50",
+          "confidence": 1.0,
+          "source_column": "CGST %"
+        },
+        "sgst_pct": {
+          "value": 2.5,
+          "raw": "2.50",
+          "confidence": 1.0,
+          "source_column": "SGST %"
+        },
+        "amount": {
+          "value": 188.77,
+          "raw": "188.77",
+          "confidence": 0.8,
+          "source_column": "Amount"
+        }
+      }
+    }
+  ]
+}

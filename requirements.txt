@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+google-genai
+pillow
+rapid-orientation

@@ -1,0 +1,752 @@
+{
+  "status": "needs_review",
+  "overall_confidence": 0.9899,
+  "page_count": 1,
+  "pharmacy": {
+    "name": {
+      "value": "SASTASUNDAR HEALTHBUDDY LIMITED",
+      "raw": "SASTASUNDAR HEALTHBUDDY LIMITED",
+      "confidence": 0.99
+    },
+    "address": {
+      "value": "Vill Salepur Purbo (Nr. Norman Bethune Sarani) PO & PS Baruipur DAG LR 412 & 414,417(P) MOUZA SALEPUR, GR. FLOOR, 1ST FLOOR & 2N BARUIPUR-700144",
+      "raw": "Vill Salepur Purbo (Nr. Norman Bethune Sarani) PO & PS Baruipur DAG LR 412 & 414,417(P) MOUZA SALEPUR, GR. FLOOR, 1ST FLOOR & 2N BARUIPUR-700144",
+      "confidence": 0.98
+    },
+    "gstin": {
+      "value": "19AAHCM0651P1ZO",
+      "raw": "19AAHCM0651P1ZO",
+      "confidence": 0.99
+    },
+    "dl_no": {
+      "value": "WB/PGS/NBO/W/754049 / WB/PGS/BIO/W/754049",
+      "raw": "WB/PGS/NBO/W/754049 / WB/PGS/BIO/W/754049",
+      "confidence": 0.98
+    }
+  },
+  "invoice": {
+    "invoice_number": {
+      "value": "TB2037025",
+      "raw": "TB2037025",
+      "confidence": 0.99
+    },
+    "invoice_date": {
+      "value": "2026-09-23",
+      "raw": "23-09-2026",
+      "confidence": 0.99
+    },
+    "order_no": {
+      "value": "26543461996",
+      "raw": "26543461996",
+      "confidence": 0.99
+    }
+  },
+  "line_items": [
+    {
+      "description": {
+        "value": "CYTOGARD OD 80 MG CAPSULE (10 CAP)",
+        "raw": "CYTOGARD OD 80 MG CAPSULE (10 CAP)",
+        "confidence": 0.99
+      },
+      "hsn_code": {
+        "value": "30049079",
+        "raw": "30049079",
+        "confidence": 0.99
+      },
+      "quantity": {
+        "value": 3.0,
+        "raw": "3",
+        "confidence": 0.99
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 0.99
+      },
+      "batch": {
+        "value": "AKM0044",
+        "raw": "AKM0044",
+        "confidence": 0.99
+      },
+      "expiry_date": {
+        "value": "10/27",
+        "raw": "10/27",
+        "confidence": 0.99
+      },
+      "mrp": {
+        "value": 354.37,
+        "raw": "354.37",
+        "confidence": 0.99
+      },
+      "rate": {
+        "value": 270.0,
+        "raw": "270.00",
+        "confidence": 0.99
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 0.99
+      },
+      "taxable_value": {
+        "value": 761.4,
+        "raw": "761.40",
+        "confidence": 0.99
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 0.99
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 0.99
+      },
+      "amount": {
+        "value": 799.46,
+        "raw": "799.46",
+        "confidence": 0.99
+      }
+    },
+    {
+      "description": {
+        "value": "FINE NERVE NTP TABLET (10 TAB)",
+        "raw": "FINE NERVE NTP TABLET (10 TAB)",
+        "confidence": 0.99
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 0.99
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 0.99
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 0.99
+      },
+      "batch": {
+        "value": "AFG01B0B",
+        "raw": "AFG01B0B",
+        "confidence": 0.99
+      },
+      "expiry_date": {
+        "value": "02/28",
+        "raw": "02/28",
+        "confidence": 0.99
+      },
+      "mrp": {
+        "value": 222.19,
+        "raw": "222.19",
+        "confidence": 0.99
+      },
+      "rate": {
+        "value": 169.29,
+        "raw": "169.29",
+        "confidence": 0.99
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 0.99
+      },
+      "taxable_value": {
+        "value": 159.13,
+        "raw": "159.13",
+        "confidence": 0.99
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 0.99
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 0.99
+      },
+      "amount": {
+        "value": 167.07,
+        "raw": "167.07",
+        "confidence": 0.99
+      }
+    },
+    {
+      "description": {
+        "value": "GLIMY 1 MG TABLET (15 TAB)",
+        "raw": "GLIMY 1 MG TABLET (15 TAB)",
+        "confidence": 0.99
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 0.99
+      },
+      "quantity": {
+        "value": 3.0,
+        "raw": "3",
+        "confidence": 0.99
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 0.99
+      },
+      "batch": {
+        "value": "E2601220",
+        "raw": "E2601220",
+        "confidence": 0.99
+      },
+      "expiry_date": {
+        "value": "05/29",
+        "raw": "05/29",
+        "confidence": 0.99
+      },
+      "mrp": {
+        "value": 59.53,
+        "raw": "59.53",
+        "confidence": 0.99
+      },
+      "rate": {
+        "value": 45.36,
+        "raw": "45.36",
+        "confidence": 0.99
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 0.99
+      },
+      "taxable_value": {
+        "value": 127.92,
+        "raw": "127.92",
+        "confidence": 0.99
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 0.99
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 0.99
+      },
+      "amount": {
+        "value": 134.3,
+        "raw": "134.30",
+        "confidence": 0.99
+      }
+    },
+    {
+      "description": {
+        "value": "MONTEK 10 MG TABLET (10 TAB)",
+        "raw": "MONTEK 10 MG TABLET (10 TAB)",
+        "confidence": 0.99
+      },
+      "hsn_code": {
+        "value": "30049031",
+        "raw": "30049031",
+        "confidence": 0.99
+      },
+      "quantity": {
+        "value": 3.0,
+        "raw": "3",
+        "confidence": 0.99
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 0.99
+      },
+      "batch": {
+        "value": "GTH1337/A",
+        "raw": "GTH1337/A",
+        "confidence": 0.99
+      },
+      "expiry_date": {
+        "value": "03/28",
+        "raw": "03/28",
+        "confidence": 0.99
+      },
+      "mrp": {
+        "value": 176.65,
+        "raw": "176.65",
+        "confidence": 0.99
+      },
+      "rate": {
+        "value": 134.59,
+        "raw": "134.59",
+        "confidence": 0.99
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 0.99
+      },
+      "taxable_value": {
+        "value": 379.54,
+        "raw": "379.54",
+        "confidence": 0.99
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 0.99
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 0.99
+      },
+      "amount": {
+        "value": 398.5,
+        "raw": "398.50",
+        "confidence": 0.99
+      }
+    },
+    {
+      "description": {
+        "value": "OLMY H 40 MG TABLET (10 TAB)",
+        "raw": "OLMY H 40 MG TABLET (10 TAB)",
+        "confidence": 0.99
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 0.99
+      },
+      "quantity": {
+        "value": 3.0,
+        "raw": "3",
+        "confidence": 0.99
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 0.99
+      },
+      "batch": {
+        "value": "SB00314A",
+        "raw": "SB00314A",
+        "confidence": 0.99
+      },
+      "expiry_date": {
+        "value": "05/28",
+        "raw": "05/28",
+        "confidence": 0.99
+      },
+      "mrp": {
+        "value": 424.08,
+        "raw": "424.08",
+        "confidence": 0.99
+      },
+      "rate": {
+        "value": 323.11,
+        "raw": "323.11",
+        "confidence": 0.99
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 0.99
+      },
+      "taxable_value": {
+        "value": 911.17,
+        "raw": "911.17",
+        "confidence": 0.99
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 0.99
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 0.99
+      },
+      "amount": {
+        "value": 956.71,
+        "raw": "956.71",
+        "confidence": 0.99
+      }
+    },
+    {
+      "description": {
+        "value": "PAN D CAPSULE (15 CAP)",
+        "raw": "PAN D CAPSULE (15 CAP)",
+        "confidence": 0.99
+      },
+      "hsn_code": {
+        "value": "30049039",
+        "raw": "30049039",
+        "confidence": 0.99
+      },
+      "quantity": {
+        "value": 3.0,
+        "raw": "3",
+        "confidence": 0.99
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 0.99
+      },
+      "batch": {
+        "value": "26441693",
+        "raw": "26441693",
+        "confidence": 0.99
+      },
+      "expiry_date": {
+        "value": "04/28",
+        "raw": "04/28",
+        "confidence": 0.99
+      },
+      "mrp": {
+        "value": 281.9,
+        "raw": "281.90",
+        "confidence": 0.99
+      },
+      "rate": {
+        "value": 199.54,
+        "raw": "199.54",
+        "confidence": 0.99
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 0.99
+      },
+      "taxable_value": {
+        "value": 562.7,
+        "raw": "562.70",
+        "confidence": 0.99
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 0.99
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 0.99
+      },
+      "amount": {
+        "value": 590.82,
+        "raw": "590.82",
+        "confidence": 0.99
+      }
+    },
+    {
+      "description": {
+        "value": "STATOR CV 20MG/75 MG CAPSULE (15 CAP)",
+        "raw": "STATOR CV 20MG/75 MG CAPSULE (15 CAP)",
+        "confidence": 0.99
+      },
+      "hsn_code": {
+        "value": "30049079",
+        "raw": "30049079",
+        "confidence": 0.99
+      },
+      "quantity": {
+        "value": 3.0,
+        "raw": "3",
+        "confidence": 0.99
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 0.99
+      },
+      "batch": {
+        "value": "WNM0018",
+        "raw": "WNM0018",
+        "confidence": 0.99
+      },
+      "expiry_date": {
+        "value": "04/28",
+        "raw": "04/28",
+        "confidence": 0.99
+      },
+      "mrp": {
+        "value": 260.24,
+        "raw": "260.24",
+        "confidence": 0.99
+      },
+      "rate": {
+        "value": 198.28,
+        "raw": "198.28",
+        "confidence": 0.99
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 0.99
+      },
+      "taxable_value": {
+        "value": 559.15,
+        "raw": "559.15",
+        "confidence": 0.99
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 0.99
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 0.99
+      },
+      "amount": {
+        "value": 587.09,
+        "raw": "587.09",
+        "confidence": 0.99
+      }
+    },
+    {
+      "description": {
+        "value": "TRYPTOMER 10 MG TABLET (30 TAB)",
+        "raw": "TRYPTOMER 10 MG TABLET (30 TAB)",
+        "confidence": 0.99
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 0.99
+      },
+      "quantity": {
+        "value": 3.0,
+        "raw": "3",
+        "confidence": 0.99
+      },
+      "unit": {
+        "value": "STRIP",
+        "raw": "STRIP",
+        "confidence": 0.99
+      },
+      "batch": {
+        "value": "D2600240",
+        "raw": "D2600240",
+        "confidence": 0.99
+      },
+      "expiry_date": {
+        "value": "06/28",
+        "raw": "06/28",
+        "confidence": 0.99
+      },
+      "mrp": {
+        "value": 76.88,
+        "raw": "76.88",
+        "confidence": 0.99
+      },
+      "rate": {
+        "value": 58.58,
+        "raw": "58.58",
+        "confidence": 0.99
+      },
+      "discount_pct": {
+        "value": 6.0,
+        "raw": "6.00",
+        "confidence": 0.99
+      },
+      "taxable_value": {
+        "value": 165.2,
+        "raw": "165.20",
+        "confidence": 0.99
+      },
+      "cgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 0.99
+      },
+      "sgst_pct": {
+        "value": 2.5,
+        "raw": "2.50",
+        "confidence": 0.99
+      },
+      "amount": {
+        "value": 173.46,
+        "raw": "173.46",
+        "confidence": 0.99
+      }
+    },
+    {
+      "description": {
+        "value": "COD CHARGES",
+        "raw": "COD CHARGES",
+        "confidence": 0.99
+      },
+      "hsn_code": {
+        "value": "997158",
+        "raw": "997158",
+        "confidence": 0.99
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 0.99
+      },
+      "unit": {
+        "value": "OTH",
+        "raw": "OTH",
+        "confidence": 0.99
+      },
+      "batch": {
+        "value": null,
+        "raw": null,
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": null,
+        "raw": null,
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": null,
+        "raw": null,
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": null,
+        "raw": null,
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": null,
+        "raw": null,
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 7.63,
+        "raw": "7.63",
+        "confidence": 0.99
+      },
+      "cgst_pct": {
+        "value": 9.0,
+        "raw": "9.00",
+        "confidence": 0.99
+      },
+      "sgst_pct": {
+        "value": 9.0,
+        "raw": "9.00",
+        "confidence": 0.99
+      },
+      "amount": {
+        "value": 8.9,
+        "raw": "8.90",
+        "confidence": 0.99
+      }
+    },
+    {
+      "description": {
+        "value": "PLATFORM FEES",
+        "raw": "PLATFORM FEES",
+        "confidence": 0.99
+      },
+      "hsn_code": {
+        "value": "999799",
+        "raw": "999799",
+        "confidence": 0.99
+      },
+      "quantity": {
+        "value": 1.0,
+        "raw": "1",
+        "confidence": 0.99
+      },
+      "unit": {
+        "value": "OTH",
+        "raw": "OTH",
+        "confidence": 0.99
+      },
+      "batch": {
+        "value": null,
+        "raw": null,
+        "confidence": 1.0
+      },
+      "expiry_date": {
+        "value": null,
+        "raw": null,
+        "confidence": 1.0
+      },
+      "mrp": {
+        "value": null,
+        "raw": null,
+        "confidence": 1.0
+      },
+      "rate": {
+        "value": null,
+        "raw": null,
+        "confidence": 1.0
+      },
+      "discount_pct": {
+        "value": null,
+        "raw": null,
+        "confidence": 1.0
+      },
+      "taxable_value": {
+        "value": 4.24,
+        "raw": "4.24",
+        "confidence": 0.99
+      },
+      "cgst_pct": {
+        "value": 9.0,
+        "raw": "9.00",
+        "confidence": 0.99
+      },
+      "sgst_pct": {
+        "value": 9.0,
+        "raw": "9.00",
+        "confidence": 0.99
+      },
+      "amount": {
+        "value": 5.0,
+        "raw": "5.00",
+        "confidence": 0.99
+      }
+    }
+  ],
+  "totals": {
+    "sub_total": {
+      "value": 3638.08,
+      "raw": "3638.08",
+      "confidence": 0.99
+    },
+    "total_discount": {
+      "value": 91.66,
+      "raw": "91.66",
+      "confidence": 0.99
+    },
+    "total_cgst": {
+      "value": 91.66,
+      "raw": "91.66",
+      "confidence": 0.99
+    },
+    "total_sgst": {
+      "value": 91.66,
+      "raw": "91.66",
+      "confidence": 0.99
+    },
+    "round_off": {
+      "value": -0.31,
+      "raw": null,
+      "confidence": 0.9
+    },
+    "grand_total": {
+      "value": 3821.0,
+      "raw": "3821.00",
+      "confidence": 0.99
+    }
+  },
+  "flags": [
+    "reconciliation: grand total mismatch: sub_total (3638.08) - discount (91.66) + CGST (91.66) + SGST (91.66) + round_off (-0.31) = 3729.43, but grand_total = 3821.00 (difference 91.57, exceeds +-1 unit tolerance)"
+  ],
+  "model_version": "gemini-2.5-flash"
+}
