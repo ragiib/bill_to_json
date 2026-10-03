@@ -4,6 +4,9 @@ import os
 import sys
 from pathlib import Path
 
+# Override GEMINI_MODEL in-memory before loading client
+os.environ["GEMINI_MODEL"] = "gemini-3.5-flash-lite"
+
 # Silence verbose informational logs during script execution
 logging.basicConfig(level=logging.WARNING)
 
@@ -52,7 +55,7 @@ def main():
         result = parse_bill([(file_bytes, mime_type)])
 
         stem = bill_path.stem
-        out_path = RESULTS_DIR / f"{stem}_latest.json"
+        out_path = RESULTS_DIR / f"{stem}_flashlite.json"
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(result, f, indent=2)
 

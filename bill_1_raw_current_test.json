@@ -1,0 +1,508 @@
+{
+  "supplier_name": {
+    "value": "JYOTSNA MEDICAL AGENCY LLP",
+    "raw": "JYOTSNA MEDICAL AGENCY LLP",
+    "confidence": 1.0,
+    "source_column": null
+  },
+  "supplier_gstin": {
+    "value": "19AARFJ7563J1ZI",
+    "raw": "19AARFJ7563J1ZI",
+    "confidence": 1.0,
+    "source_column": "GSTIN"
+  },
+  "bill_no": {
+    "value": "2600007700984592",
+    "raw": "2600007700984592",
+    "confidence": 1.0,
+    "source_column": "Tax Inv.No"
+  },
+  "bill_date": {
+    "value": "2026-09-02",
+    "raw": "02-09-2026",
+    "confidence": 1.0,
+    "source_column": "Invoice Date"
+  },
+  "notes": {
+    "value": "CHEQUE BOUNCE CHARGE 400.00 AS ALL SUBJECT TO BERHAMPORE JURISDICTION ONLY",
+    "raw": "CHEQUE BOUNCE CHARGE 400.00 AS ALL SUBJECT TO BERHAMPORE JURISDICTION ONLY",
+    "confidence": 0.9,
+    "source_column": null
+  },
+  "taxable_amount": {
+    "value": 958.40,
+    "raw": "958.40",
+    "confidence": 1.0,
+    "source_column": "Taxable"
+  },
+  "cgst_amount": {
+    "value": 23.97,
+    "raw": "23.97",
+    "confidence": 1.0,
+    "source_column": "CGST% AMT"
+  },
+  "sgst_amount": {
+    "value": 23.97,
+    "raw": "23.97",
+    "confidence": 1.0,
+    "source_column": "SGST% AMT"
+  },
+  "total_amount": {
+    "value": 1006.00,
+    "raw": "1006.00",
+    "confidence": 1.0,
+    "source_column": "Grand Total"
+  },
+  "items": [
+    {
+      "medicine_name": {
+        "value": "LIBRAX TAB",
+        "raw": "LIBRAX TAB",
+        "confidence": 1.0,
+        "source_column": "Item Description"
+      },
+      "mrp": {
+        "value": "223.79",
+        "raw": "223.79",
+        "confidence": 1.0,
+        "source_column": "M.R.P"
+      },
+      "quantity": {
+        "value": "1",
+        "raw": "1",
+        "confidence": 1.0,
+        "source_column": "Quantity Billed"
+      },
+      "batch_number": {
+        "value": "LXC26014",
+        "raw": "LXC26014",
+        "confidence": 1.0,
+        "source_column": "Batch"
+      },
+      "expiry_date": {
+        "value": "2026-08",
+        "raw": "08/26",
+        "confidence": 1.0,
+        "source_column": "Exp Date"
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0,
+        "source_column": "HSN / SAC Code"
+      },
+      "gst": {
+        "value": "5",
+        "raw": "5",
+        "confidence": 1.0,
+        "source_column": "GST Rate %"
+      },
+      "rate": {
+        "value": "175.03",
+        "raw": "175.03",
+        "confidence": 1.0,
+        "source_column": "Trade Price"
+      },
+      "discount": {
+        "value": "0.00",
+        "raw": "0.00",
+        "confidence": 1.0,
+        "source_column": "Disc %"
+      }
+    },
+    {
+      "medicine_name": {
+        "value": "ZAPIZ 1",
+        "raw": "ZAPIZ 1",
+        "confidence": 1.0,
+        "source_column": "Item Description"
+      },
+      "mrp": {
+        "value": "76.85",
+        "raw": "76.85",
+        "confidence": 1.0,
+        "source_column": "M.R.P"
+      },
+      "quantity": {
+        "value": "1",
+        "raw": "1",
+        "confidence": 1.0,
+        "source_column": "Quantity Billed"
+      },
+      "batch_number": {
+        "value": "K200902",
+        "raw": "K200902",
+        "confidence": 1.0,
+        "source_column": "Batch"
+      },
+      "expiry_date": {
+        "value": "2029-06",
+        "raw": "06/29",
+        "confidence": 1.0,
+        "source_column": "Exp Date"
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0,
+        "source_column": "HSN / SAC Code"
+      },
+      "gst": {
+        "value": "5",
+        "raw": "5",
+        "confidence": 1.0,
+        "source_column": "GST Rate %"
+      },
+      "rate": {
+        "value": "58.55",
+        "raw": "58.55",
+        "confidence": 1.0,
+        "source_column": "Trade Price"
+      },
+      "discount": {
+        "value": "0.00",
+        "raw": "0.00",
+        "confidence": 1.0,
+        "source_column": "Disc %"
+      }
+    },
+    {
+      "medicine_name": {
+        "value": "METROGYL 400 MG",
+        "raw": "METROGYL 400 MG",
+        "confidence": 1.0,
+        "source_column": "Item Description"
+      },
+      "mrp": {
+        "value": "32.70",
+        "raw": "32.70",
+        "confidence": 1.0,
+        "source_column": "M.R.P"
+      },
+      "quantity": {
+        "value": "1",
+        "raw": "1",
+        "confidence": 1.0,
+        "source_column": "Quantity Billed"
+      },
+      "batch_number": {
+        "value": "TME0043",
+        "raw": "TME0043",
+        "confidence": 1.0,
+        "source_column": "Batch"
+      },
+      "expiry_date": {
+        "value": "2030-03",
+        "raw": "03/30",
+        "confidence": 1.0,
+        "source_column": "Exp Date"
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0,
+        "source_column": "HSN / SAC Code"
+      },
+      "gst": {
+        "value": "5",
+        "raw": "5",
+        "confidence": 1.0,
+        "source_column": "GST Rate %"
+      },
+      "rate": {
+        "value": "26.90",
+        "raw": "26.90",
+        "confidence": 1.0,
+        "source_column": "Trade Price"
+      },
+      "discount": {
+        "value": "0.00",
+        "raw": "0.00",
+        "confidence": 1.0,
+        "source_column": "Disc %"
+      }
+    },
+    {
+      "medicine_name": {
+        "value": "GLIZID TOTAL P 15 TAB",
+        "raw": "GLIZID TOTAL P 15 TAB",
+        "confidence": 1.0,
+        "source_column": "Item Description"
+      },
+      "mrp": {
+        "value": "196.65",
+        "raw": "196.65",
+        "confidence": 1.0,
+        "source_column": "M.R.P"
+      },
+      "quantity": {
+        "value": "1",
+        "raw": "1",
+        "confidence": 1.0,
+        "source_column": "Quantity Billed"
+      },
+      "batch_number": {
+        "value": "E1CTZ026",
+        "raw": "E1CTZ026",
+        "confidence": 1.0,
+        "source_column": "Batch"
+      },
+      "expiry_date": {
+        "value": "2029-03",
+        "raw": "03/29",
+        "confidence": 1.0,
+        "source_column": "Exp Date"
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0,
+        "source_column": "HSN / SAC Code"
+      },
+      "gst": {
+        "value": "5",
+        "raw": "5",
+        "confidence": 1.0,
+        "source_column": "GST Rate %"
+      },
+      "rate": {
+        "value": "149.98",
+        "raw": "149.98",
+        "confidence": 1.0,
+        "source_column": "Trade Price"
+      },
+      "discount": {
+        "value": "0.00",
+        "raw": "0.00",
+        "confidence": 1.0,
+        "source_column": "Disc %"
+      }
+    },
+    {
+      "medicine_name": {
+        "value": "CONCOR 5",
+        "raw": "CONCOR 5",
+        "confidence": 1.0,
+        "source_column": "Item Description"
+      },
+      "mrp": {
+        "value": "145.30",
+        "raw": "145.30",
+        "confidence": 1.0,
+        "source_column": "M.R.P"
+      },
+      "quantity": {
+        "value": "1",
+        "raw": "1",
+        "confidence": 1.0,
+        "source_column": "Quantity Billed"
+      },
+      "batch_number": {
+        "value": "M07AM26069",
+        "raw": "M07AM26069",
+        "confidence": 1.0,
+        "source_column": "Batch"
+      },
+      "expiry_date": {
+        "value": "2028-04",
+        "raw": "04/28",
+        "confidence": 1.0,
+        "source_column": "Exp Date"
+      },
+      "hsn_code": {
+        "value": "30049072",
+        "raw": "30049072",
+        "confidence": 1.0,
+        "source_column": "HSN / SAC Code"
+      },
+      "gst": {
+        "value": "5",
+        "raw": "5",
+        "confidence": 1.0,
+        "source_column": "GST Rate %"
+      },
+      "rate": {
+        "value": "110.77",
+        "raw": "110.77",
+        "confidence": 1.0,
+        "source_column": "Trade Price"
+      },
+      "discount": {
+        "value": "0.00",
+        "raw": "0.00",
+        "confidence": 1.0,
+        "source_column": "Disc %"
+      }
+    },
+    {
+      "medicine_name": {
+        "value": "CONCOR COR 2.5",
+        "raw": "CONCOR COR 2.5",
+        "confidence": 1.0,
+        "source_column": "Item Description"
+      },
+      "mrp": {
+        "value": "97.40",
+        "raw": "97.40",
+        "confidence": 1.0,
+        "source_column": "M.R.P"
+      },
+      "quantity": {
+        "value": "2",
+        "raw": "2",
+        "confidence": 1.0,
+        "source_column": "Quantity Billed"
+      },
+      "batch_number": {
+        "value": "M07AL26065",
+        "raw": "M07AL26065",
+        "confidence": 1.0,
+        "source_column": "Batch"
+      },
+      "expiry_date": {
+        "value": "2028-04",
+        "raw": "04/28",
+        "confidence": 1.0,
+        "source_column": "Exp Date"
+      },
+      "hsn_code": {
+        "value": "30049072",
+        "raw": "30049072",
+        "confidence": 1.0,
+        "source_column": "HSN / SAC Code"
+      },
+      "gst": {
+        "value": "5",
+        "raw": "5",
+        "confidence": 1.0,
+        "source_column": "GST Rate %"
+      },
+      "rate": {
+        "value": "74.21",
+        "raw": "74.21",
+        "confidence": 1.0,
+        "source_column": "Trade Price"
+      },
+      "discount": {
+        "value": "0.00",
+        "raw": "0.00",
+        "confidence": 1.0,
+        "source_column": "Disc %"
+      }
+    },
+    {
+      "medicine_name": {
+        "value": "CORBIS 2.5",
+        "raw": "CORBIS 2.5",
+        "confidence": 1.0,
+        "source_column": "Item Description"
+      },
+      "mrp": {
+        "value": "115.55",
+        "raw": "115.55",
+        "confidence": 1.0,
+        "source_column": "M.R.P"
+      },
+      "quantity": {
+        "value": "1",
+        "raw": "1",
+        "confidence": 1.0,
+        "source_column": "Quantity Billed"
+      },
+      "batch_number": {
+        "value": "DFW32001A",
+        "raw": "DFW32001A",
+        "confidence": 1.0,
+        "source_column": "Batch"
+      },
+      "expiry_date": {
+        "value": "2025-05",
+        "raw": "05/25",
+        "confidence": 1.0,
+        "source_column": "Exp Date"
+      },
+      "hsn_code": {
+        "value": "30049099",
+        "raw": "30049099",
+        "confidence": 1.0,
+        "source_column": "HSN / SAC Code"
+      },
+      "gst": {
+        "value": "5",
+        "raw": "5",
+        "confidence": 1.0,
+        "source_column": "GST Rate %"
+      },
+      "rate": {
+        "value": "88.07",
+        "raw": "88.07",
+        "confidence": 1.0,
+        "source_column": "Trade Price"
+      },
+      "discount": {
+        "value": "0.00",
+        "raw": "0.00",
+        "confidence": 1.0,
+        "source_column": "Disc %"
+      }
+    },
+    {
+      "medicine_name": {
+        "value": "SHELCAL HD TAB",
+        "raw": "SHELCAL HD TAB",
+        "confidence": 1.0,
+        "source_column": "Item Description"
+      },
+      "mrp": {
+        "value": "170.00",
+        "raw": "170.00",
+        "confidence": 1.0,
+        "source_column": "M.R.P"
+      },
+      "quantity": {
+        "value": "1",
+        "raw": "1",
+        "confidence": 1.0,
+        "source_column": "Quantity Billed"
+      },
+      "batch_number": {
+        "value": "DMB526020A",
+        "raw": "DMB526020A",
+        "confidence": 1.0,
+        "source_column": "Batch"
+      },
+      "expiry_date": {
+        "value": "2025-05",
+        "raw": "05/25",
+        "confidence": 1.0,
+        "source_column": "Exp Date"
+      },
+      "hsn_code": {
+        "value": "30045039",
+        "raw": "30045039",
+        "confidence": 1.0,
+        "source_column": "HSN / SAC Code"
+      },
+      "gst": {
+        "value": "5",
+        "raw": "5",
+        "confidence": 1.0,
+        "source_column": "GST Rate %"
+      },
+      "rate": {
+        "value": "130.21",
+        "raw": "130.21",
+        "confidence": 1.0,
+        "source_column": "Trade Price"
+      },
+      "discount": {
+        "value": "0.00",
+        "raw": "0.00",
+        "confidence": 1.0,
+        "source_column": "Disc %"
+      }
+    }
+  ],
+  "flags": [],
+  "status": "completed"
+}

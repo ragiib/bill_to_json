@@ -1,0 +1,127 @@
+{
+  "supplier_name": "SASTASUNDAR HEALTHBUDDY LIMITED",
+  "supplier_gstin": "19AAHCM0651P1Z0",
+  "bill_no": "443TB2037025",
+  "bill_date": "2026-09-23",
+  "notes": "LONG ROUTE ORDER",
+  "taxable_amount": 3638.08,
+  "cgst_amount": 91.66,
+  "sgst_amount": 91.66,
+  "total_amount": 3821.0,
+  "items": [
+    {
+      "medicine_name": "CYTOGARD OD 80 MG CAPSULE (10 CAP)",
+      "mrp": "354.37",
+      "quantity": "3",
+      "batch_number": "AKM0044",
+      "expiry_date": "2027-10",
+      "hsn_code": "30049079",
+      "gst": "5",
+      "rate": "270.00",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "FINE NERVE NTP TABLET (10 TAB)",
+      "mrp": "222.19",
+      "quantity": "1",
+      "batch_number": "AFG01B0B",
+      "expiry_date": "2028-02",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "169.29",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "GLIMY 1 MG TABLET (15 TAB)",
+      "mrp": "59.53",
+      "quantity": "3",
+      "batch_number": "E2601220",
+      "expiry_date": "2029-05",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "45.36",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "MONTEK 10 MG TABLET (10 TAB)",
+      "mrp": "176.65",
+      "quantity": "3",
+      "batch_number": "GTH1337A",
+      "expiry_date": "2028-03",
+      "hsn_code": "30049031",
+      "gst": "5",
+      "rate": "134.59",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "OLMY H 40 MG TABLET (10 TAB)",
+      "mrp": "424.08",
+      "quantity": "3",
+      "batch_number": "SB00314A",
+      "expiry_date": "2028-05",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "323.11",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "PAN D CAPSULE (15 CAP)",
+      "mrp": "261.90",
+      "quantity": "3",
+      "batch_number": "26441693",
+      "expiry_date": "2028-04",
+      "hsn_code": "30049039",
+      "gst": "5",
+      "rate": "199.54",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "STATOR CV 20MG/75 MG CAPSULE (15 CAP)",
+      "mrp": "260.24",
+      "quantity": "3",
+      "batch_number": "WNM0018",
+      "expiry_date": "2028-04",
+      "hsn_code": "30049079",
+      "gst": "5",
+      "rate": "198.28",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "TRYPTOMER 10 MG TABLET (30 TAB)",
+      "mrp": "76.88",
+      "quantity": "3",
+      "batch_number": "D2600240",
+      "expiry_date": "2028-06",
+      "hsn_code": "30049099",
+      "gst": "5",
+      "rate": "58.58",
+      "discount": "6.00"
+    },
+    {
+      "medicine_name": "COD CHARGES",
+      "mrp": null,
+      "quantity": "1",
+      "batch_number": null,
+      "expiry_date": null,
+      "hsn_code": "997158",
+      "gst": "18",
+      "rate": null,
+      "discount": null
+    },
+    {
+      "medicine_name": "PLATFORM FEES",
+      "mrp": null,
+      "quantity": "1",
+      "batch_number": null,
+      "expiry_date": null,
+      "hsn_code": "999799",
+      "gst": "18",
+      "rate": null,
+      "discount": null
+    }
+  ],
+  "status": "completed",
+  "overall_confidence": 1.0,
+  "flags": [],
+  "model_version": "gemini-3.5-flash-lite"
+}

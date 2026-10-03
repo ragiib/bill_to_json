@@ -1,17 +1,17 @@
 {
   "supplier_name": "SASTASUNDAR HEALTHBUDDY LIMITED",
   "supplier_gstin": "19AAHCM0651P1ZO",
-  "bill_no": "TB2037025",
-  "bill_date": "2026-09-23",
+  "bill_no": "443TB1904436",
+  "bill_date": "2026-09-13",
   "notes": "LONG ROUTE ORDER",
   "taxable_amount": null,
-  "cgst_amount": null,
-  "sgst_amount": null,
+  "cgst_amount": 82.22,
+  "sgst_amount": 82.22,
   "total_amount": null,
   "items": [
     {
       "medicine_name": "BIGGABA NT TABLET (10 TAB)",
-      "mrp": "224.45",
+      "mrp": "239.41",
       "quantity": "1",
       "batch_number": "P3FZZ004",
       "expiry_date": "2028-04",
@@ -22,7 +22,7 @@
     },
     {
       "medicine_name": "CAL 123 TABLET (15 TAB)",
-      "mrp": "215.00",
+      "mrp": "224.45",
       "quantity": "1",
       "batch_number": "CALP26011",
       "expiry_date": "2028-05",
@@ -59,7 +59,7 @@
       "quantity": "5",
       "batch_number": "3CD1289",
       "expiry_date": "2028-02",
-      "hsn_code": "30049038",
+      "hsn_code": "30049039",
       "gst": "5",
       "rate": "38.87",
       "discount": "6.00"
@@ -101,7 +101,7 @@
       "medicine_name": "FLEXON MR TABLET (10 TAB)",
       "mrp": "32.20",
       "quantity": "1",
-      "batch_number": "DPD260840",
+      "batch_number": "DPD260640",
       "expiry_date": "2029-03",
       "hsn_code": "30049099",
       "gst": "5",
@@ -110,7 +110,7 @@
     },
     {
       "medicine_name": "GEMER P 2 MG TABLET (10 TAB)",
-      "mrp": "216.58",
+      "mrp": "216.56",
       "quantity": "1",
       "batch_number": "GTH2283A",
       "expiry_date": "2028-06",
@@ -134,7 +134,7 @@
       "medicine_name": "GLYCINORM OD 60 MG TABLET (15 TAB)",
       "mrp": "266.20",
       "quantity": "1",
-      "batch_number": "KXS0126005AP",
+      "batch_number": "KXS0126005AK",
       "expiry_date": "2029-05",
       "hsn_code": "30043190",
       "gst": "5",
@@ -167,7 +167,7 @@
       "medicine_name": "LIVOGEN CAPSULETABS (15 TAB)",
       "mrp": "104.43",
       "quantity": "1",
-      "batch_number": "8127C84206",
+      "batch_number": "6127C84206",
       "expiry_date": "2028-04",
       "hsn_code": "30045010",
       "gst": "5",
@@ -178,7 +178,7 @@
       "medicine_name": "LIZOLID 600 MG TABLET (10 TAB)",
       "mrp": "383.00",
       "quantity": "1",
-      "batch_number": "LZ2HBPTPP603",
+      "batch_number": "LZ2HBTPP603",
       "expiry_date": "2028-05",
       "hsn_code": "30049087",
       "gst": "5",
@@ -208,8 +208,11 @@
       "discount": "6.00"
     }
   ],
-  "status": "completed",
-  "overall_confidence": 1.0,
-  "flags": [],
-  "model_version": "gemini-2.5-flash"
+  "status": "needs_review",
+  "overall_confidence": 0.9883,
+  "flags": [
+    "Totals 'taxable_amount' confidence is low (0.50); value set to null.",
+    "Totals 'total_amount' confidence is low (0.50); value set to null."
+  ],
+  "model_version": "gemini-3.5-flash-lite"
 }

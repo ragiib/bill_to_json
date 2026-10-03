@@ -1,9 +1,9 @@
 {
   "supplier_name": "JYOTSNA MEDICAL AGENCY LLP",
   "supplier_gstin": "19AARFJ7563J1ZI",
-  "bill_no": "2600007700984592",
+  "bill_no": "260000730084592",
   "bill_date": "2026-09-02",
-  "notes": "CHEQUE BOUNCE CHARGE 400.00 AS ALL SUBJECT TO BERHAMPUR JURISDICTION ONLY",
+  "notes": null,
   "taxable_amount": 958.4,
   "cgst_amount": 23.97,
   "sgst_amount": 23.97,
@@ -13,93 +13,93 @@
       "medicine_name": "LIBRAX TAB 20 T",
       "mrp": "223.79",
       "quantity": "1",
-      "batch_number": "LXC26014",
+      "batch_number": "LXC20014",
       "expiry_date": "2028-02",
       "hsn_code": "30049099",
       "gst": "5",
       "rate": "175.03",
-      "discount": "0.00"
+      "discount": "4.00"
     },
     {
       "medicine_name": "ZAPIZ 1 10 T",
-      "mrp": "76.85",
+      "mrp": "61.97",
       "quantity": "1",
-      "batch_number": "K200902",
-      "expiry_date": "2029-06",
+      "batch_number": "K2000902",
+      "expiry_date": "2025-03",
       "hsn_code": "30049099",
       "gst": "5",
       "rate": "58.55",
-      "discount": "0.00"
+      "discount": "4.00"
     },
     {
       "medicine_name": "METROGYL 400 MG",
       "mrp": "32.70",
-      "quantity": "1",
-      "batch_number": "TME0043",
-      "expiry_date": "2030-03",
+      "quantity": "5",
+      "batch_number": "TM26043",
+      "expiry_date": "2029-03",
       "hsn_code": "30049099",
       "gst": "5",
       "rate": "26.90",
-      "discount": "0.00"
+      "discount": "2.00"
     },
     {
       "medicine_name": "GLIZID TOTAL P 15 TAB",
       "mrp": "196.65",
       "quantity": "1",
       "batch_number": "E1CTZ026",
-      "expiry_date": "2029-03",
+      "expiry_date": "2025-03",
       "hsn_code": "30049099",
       "gst": "5",
-      "rate": "143.96",
-      "discount": "0.00"
+      "rate": "149.98",
+      "discount": "4.00"
     },
     {
       "medicine_name": "CONCOR 5",
-      "mrp": "145.30",
+      "mrp": "145.33",
       "quantity": "1",
-      "batch_number": "M07AM26069",
+      "batch_number": "MO7AM26069",
       "expiry_date": "2028-04",
       "hsn_code": "30049072",
       "gst": "5",
       "rate": "110.77",
-      "discount": "0.00"
+      "discount": "4.00"
     },
     {
       "medicine_name": "CONCOR COR 2.5",
-      "mrp": "87.40",
+      "mrp": "97.40",
       "quantity": "2",
-      "batch_number": "M07AL26065",
+      "batch_number": "MO7AL26055",
       "expiry_date": "2028-04",
       "hsn_code": "30049072",
       "gst": "5",
       "rate": "74.21",
-      "discount": "0.00"
+      "discount": "4.00"
     },
     {
       "medicine_name": "CORBIS 2.5",
       "mrp": "115.50",
       "quantity": "1",
-      "batch_number": "DFW32001A",
-      "expiry_date": "2025-05",
+      "batch_number": "DFW326001A",
+      "expiry_date": "2029-05",
       "hsn_code": "30049099",
       "gst": "5",
       "rate": "88.07",
-      "discount": "0.00"
+      "discount": "4.00"
     },
     {
       "medicine_name": "SHELCAL HD TAB 15S",
       "mrp": "170.00",
       "quantity": "1",
       "batch_number": "DMB526020A",
-      "expiry_date": "2025-05",
+      "expiry_date": "2028-05",
       "hsn_code": "30045039",
       "gst": "5",
       "rate": "130.21",
-      "discount": "0.00"
+      "discount": "4.00"
     }
   ],
   "status": "completed",
   "overall_confidence": 1.0,
   "flags": [],
-  "model_version": "gemini-2.5-flash"
+  "model_version": "gemini-3.5-flash-lite"
 }

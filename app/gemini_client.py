@@ -55,21 +55,35 @@ CRITICAL INSTRUCTIONS:
        Row with cell "277.59" stacked above "260.24" (STATOR CV) -> extract "260.24".
        If a bill shows only ONE number for MRP (no Old Mrp), extract that number as-is — this disambiguation only applies when two stacked values are present under an Old Mrp/Mrp combined header.
    - quantity: The billed quantity as a STRING (e.g. "1", "3").
-   - batch_number: The manufacturer batch/lot number (e.g. "AKM0044", "LXC2014"). Null if absent.
+   - batch_number: The manufacturer batch/lot number (e.g. "AKM0044", "LXC2014").
+     * HANDWRITTEN OVERLAY WARNING:
+       Inspect for handwritten pen marks, checkmarks ('/'), or ticks that staff frequently mark across the batch column.
+       Do NOT misinterpret pen checkmarks or slashes as extra digits or characters in the batch number.
+       For example, a printed 7-character batch "LXC2014" followed by or touched by a pen stroke is "LXC2014", NOT "LXC26014".
+     Null if absent.
    - expiry_date: The product expiry date, normalized to YYYY-MM format as a STRING (e.g. "2025-08", "2027-10"). If printed as MM/YY (e.g. "10/27"), convert to YYYY-MM ("2027-10"). Null if absent or unreadable.
    - hsn_code: The HSN/SAC code as a STRING (e.g. "30049079"). Null if absent.
+   - gst: The single combined GST % for this item as a STRING without '%' (e.g. "5" or "12"). If the bill prints separate CGST% and SGST% columns (e.g. 2.5% and 2.5%), add them together to obtain the single combined GST rate (e.g. "5"). If 6% and 6%, gst is "12".
    - rate: The wholesale/trade unit price before any per-line discount, as a STRING (e.g. "175.03", "270.00").
-   - discount: The per-line discount % as a STRING (e.g. "4.00", "6.00"), distinguished explicitly from any unrelated "Scheme %" / "Sch %" column if both are present on the bill.
+   - discount: The per-line discount % as a STRING (e.g. "4.00", "2.00", "6.00"), distinguished explicitly from any unrelated "Scheme %" / "Sch %" column if both are present on the bill.
      * CRITICAL ADJACENT-COLUMN WARNING:
-       Some bills print a 'Sch %' (scheme discount) column immediately next to a 'Disc %' (trade discount) column — these are visually close together and easy to confuse. The `discount` field must come from 'Disc %' specifically, never from 'Sch %'. If unsure which column is which, state both values you see before choosing.
-       Maintain strict vertical column alignment across ALL rows in the table: on bills with both columns, 'Sch %' is often 0.00 down the entire column, whereas 'Disc %' contains the trade discount (e.g. 4.00, 2.00). Do NOT drift into the 'Sch %' column on any row. Verify via printed math: rate x (1 - discount/100) matches the line's pre-tax value (e.g. 175.03 x 0.96 = 168.03 -> discount is 4.00, not 0.00; 58.55 x 0.96 = 56.21 -> discount is 4.00).
+       Some bills print both a 'Sch %' (scheme discount) column and a 'Disc %' (trade discount) column side by side (for example: Trade Price | Sch % | Disc % | Taxable Value).
+       The column immediately following Trade Price is 'Sch %' (which contains 0.00 across all rows).
+       The next column to its right is 'Disc %' (which contains the actual trade discount, e.g. 4.00 or 2.00).
+       The `discount` field MUST ALWAYS come from the 'Disc %' column, NEVER from 'Sch %'. Skip the 'Sch %' (0.00) column and extract the number from 'Disc %'.
+       Do NOT assume all rows have the identical discount percentage: inspect each row individually (for example, on some bills most rows show 4.00% while others show 2.00%).
      Null if no discount is printed.
 
-4. CONFIDENCE & LEGIBILITY:
+4. ROW-BY-ROW INDEPENDENCE & NO VALUE DUPLICATION:
+   - Each item row in the invoice table corresponds to a distinct medicine with its own distinct pricing (MRP, Rate), quantity, batch number, and expiry date.
+   - NEVER copy, carry over, or duplicate values from the preceding row into the current row.
+   - Always extract each row's fields directly from that row's own printed horizontal line.
+
+5. CONFIDENCE & LEGIBILITY:
    Confidence must reflect ONLY how clearly and legibly you can read the printed text for THAT specific field.
    A clearly printed value should have confidence=1.0. Only lower confidence when the digit, decimal, or text is visually ambiguous, obscured, blurry, or genuinely hard to read.
 
-5. EXTRACTION TARGETS:
+6. EXTRACTION TARGETS:
    - Invoice Level:
      * supplier_name: Name of the selling dealer / distributor / agency (e.g. "SASTASUNDAR HEALTHBUDDY LIMITED", "JYOTSNA MEDICAL AGENCY").
      * supplier_gstin: 15-character Indian GSTIN of the supplier (e.g. "19AAHCM0651P1ZO").
@@ -82,7 +96,7 @@ CRITICAL INSTRUCTIONS:
      * total_amount: Net payable invoice grand total as a numeric float (e.g. 1006.00 or 3821.00).
    - Items: Array of all line items with fields specified above.
 
-6. OUTPUT FORMAT:
+7. OUTPUT FORMAT:
    - Output strictly valid JSON conforming precisely to the provided schema. Do not enclose output in markdown blocks, backticks, or preamble.
 """
 
@@ -301,9 +315,7 @@ def parse_bill(pages: List[Tuple[bytes, str]]) -> Dict[str, Any]:
         )
 
     contents.append(
-        "Extract all pharmacy bill data across all provided page(s) according to the schema instructions.\n"
-        "REMINDER: When extracting line items, if you see adjacent columns for 'Sch %' (scheme discount) and 'Disc %' (trade discount), "
-        "always extract the `discount` field from 'Disc %' (e.g. 4.00), NEVER from 'Sch %' (which is often 0.00)."
+        "Extract all pharmacy bill data across all provided page(s) according to the schema instructions."
     )
 
     # 3. Configure generation with internal schema enforcement
@@ -335,7 +347,7 @@ def parse_bill(pages: List[Tuple[bytes, str]]) -> Dict[str, Any]:
         except errors.ClientError:
             logger.error("Non-retryable 4xx client error from Gemini API.")
             raise
-        except (errors.ServerError, httpx.TimeoutException, httpx.NetworkError, TimeoutError) as exc:
+        except (errors.ServerError, httpx.HTTPError, TimeoutError) as exc:
             if attempt < max_retries:
                 backoff_delay = 3.0 * (2 ** attempt)
                 logger.warning(
