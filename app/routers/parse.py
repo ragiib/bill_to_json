@@ -1,9 +1,10 @@
 import logging
 from pathlib import Path
 from typing import List, Tuple, Union
-from fastapi import APIRouter, File, UploadFile
+from fastapi import APIRouter, Depends, File, UploadFile
 from fastapi.responses import JSONResponse
 
+from app.auth import verify_api_key
 from app.gemini_client import parse_bill
 from app.models import BillParseResponse, ErrorResponse
 
@@ -28,6 +29,7 @@ MIME_MAP = {
     response_model=BillParseResponse,
     responses={
         400: {"model": ErrorResponse, "description": "Validation failure or file constraint violation"},
+        401: {"model": ErrorResponse, "description": "Missing or invalid API key"},
         500: {"model": ErrorResponse, "description": "Internal processing failure"},
     },
 )
@@ -36,6 +38,7 @@ async def parse_bill_endpoint(
         ...,
         description="One or more images or PDF files representing ALL PAGES OF ONE BILL.",
     ),
+    _api_key: str = Depends(verify_api_key),
 ) -> Union[BillParseResponse, JSONResponse]:
     """
     Synchronously parse all pages of a single pharmacy bill using Google Gemini.

@@ -1,6 +1,6 @@
 # Pharmacy Bill Intelligence API
 
-A high-performance, stateless REST service built with FastAPI and Google Gemini, designed for automated extraction of structured data from Indian pharmacy and wholesale medical bills. Deployed as a containerized service on **Google Cloud Run**.
+A high-performance, stateless REST service built with FastAPI and Google Gemini, designed for automated extraction of structured data from Indian pharmacy and wholesale medical bills. Deployed as a containerized service on **Render**.
 
 ---
 
@@ -42,11 +42,13 @@ Set the following variables in your `.env` file or environment:
 
 ```ini
 GEMINI_API_KEY=your_gemini_api_key_here
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_MODEL=gemini-3.5-flash-lite
+OUR_API_KEY=your_secure_api_key_here
 ```
 
-- `GEMINI_API_KEY`: Required. Validated on application startup.
-- `GEMINI_MODEL`: Optional (defaults to `gemini-2.5-flash`). Allows overriding the Gemini Flash model string.
+- `GEMINI_API_KEY`: Required. Google Gemini API key, validated on startup.
+- `GEMINI_MODEL`: Optional (defaults to `gemini-2.5-flash`). Allows overriding the Gemini Flash model string (e.g. `gemini-3.5-flash-lite`).
+- `OUR_API_KEY`: Required. Secret API key used for authenticating incoming requests to `/api/v1/parse-bill`.
 
 ---
 
@@ -82,6 +84,16 @@ uvicorn app.main:app --reload --port 8080
 
 Uploads one or more images or PDF pages representing all pages of a single pharmacy bill.
 
+- **Authentication**: **Required**. Every request to `/api/v1/parse-bill` must include the header:
+  ```http
+  X-API-Key: <OUR_API_KEY>
+  ```
+  Missing or invalid API key will immediately return `401 Unauthorized`:
+  ```json
+  {"error": "unauthorized", "detail": "Missing or invalid API key"}
+  ```
+  This check executes prior to reading payload bytes or calling Gemini, ensuring unauthorized requests do not consume bandwidth or quota.
+
 - **Request Type**: `multipart/form-data`
 - **Field Name**: `files` (supports multiple files)
 - **Constraints**:
@@ -92,6 +104,7 @@ Uploads one or more images or PDF pages representing all pages of a single pharm
 #### Example Request (Multi-Page Bill)
 ```bash
 curl -X POST "http://localhost:8080/api/v1/parse-bill" \
+  -H "X-API-Key: your_secure_api_key_here" \
   -F "files=@page1.png" \
   -F "files=@page2.png"
 ```
@@ -142,16 +155,20 @@ curl -X POST "http://localhost:8080/api/v1/parse-bill" \
 }
 ```
 
-#### Error Responses (400 Bad Request)
-- Unsupported file type:
+#### Error Responses
+- Missing or invalid API key (401 Unauthorized):
+  ```json
+  {"error": "unauthorized", "detail": "Missing or invalid API key"}
+  ```
+- Unsupported file type (400 Bad Request):
   ```json
   {"error": "unsupported_file_type", "detail": "File 'notes.txt' has invalid type 'txt'. Allowed file types are: jpeg, jpg, pdf, png."}
   ```
-- File too large:
+- File too large (400 Bad Request):
   ```json
   {"error": "file_too_large", "detail": "File 'big.pdf' exceeds maximum allowed limit of 15MB. Received 15794176 bytes."}
   ```
-- Request too large:
+- Request too large (400 Bad Request):
   ```json
   {"error": "request_too_large", "detail": "Total request size (52428800 bytes) exceeds maximum limit of 50MB across all pages."}
   ```
@@ -161,4 +178,40 @@ curl -X POST "http://localhost:8080/api/v1/parse-bill" \
 ### 2. Health Check
 `GET /healthz`
 
-Returns `200 OK` with `{"status": "ok"}` for Google Cloud Run container health probes.
+Returns `200 OK` with `{"status": "ok"}`. Open and unauthenticated for container liveness and readiness probes.
+
+---
+
+## Deployment to Render
+
+This service is containerized via Docker and can be deployed to [Render](https://render.com) (no credit card required on the free tier, with 750 free instance-hours/month).
+
+### Option A: Using Render Blueprints (render.yaml)
+1. Push your repository to GitHub.
+2. In the [Render Dashboard](https://dashboard.render.com), click **New +** > **Blueprint**.
+3. Connect your GitHub repository (`bill_to_json`). Render will automatically detect [`render.yaml`](file:///c:/bill_to_JSON/render.yaml).
+4. Render will prompt you for the secret environment variables marked `sync: false`:
+   - `GEMINI_API_KEY`: Your Google Gemini API key.
+   - `OUR_API_KEY`: Your secure API key generated for `/api/v1/parse-bill`.
+5. Click **Apply** to deploy.
+
+### Option B: Manual Web Service Setup
+1. In the [Render Dashboard](https://dashboard.render.com), click **New +** > **Web Service**.
+2. Connect your GitHub repository or enter `https://github.com/ragiib/bill_to_json`.
+3. Configure the service:
+   - **Name**: `pharmacy-bill-api` (or preferred name)
+   - **Region**: Oregon (or nearest region)
+   - **Branch**: `main`
+   - **Runtime**: `Docker`
+   - **Instance Type**: `Free`
+   - **Health Check Path**: `/healthz`
+4. Add the following **Environment Variables** (encrypted secrets):
+   - `GEMINI_API_KEY`: `<your_gemini_api_key>`
+   - `GEMINI_MODEL`: `gemini-3.5-flash-lite`
+   - `OUR_API_KEY`: `<your_generated_api_key>`
+5. Click **Create Web Service**.
+
+### Free-Tier Behavior & Client Timeouts (Important)
+- **Automatic Inactivity Sleep**: Render's free tier spins down (sleeps) after **15 minutes of inactivity**.
+- **Cold Start Delay**: The first request received after the service sleeps takes approximately **50–70 seconds** while Render provisions the container and boots the application. Subsequent requests while the container is warm respond in normal time (~3–6 seconds).
+- **Client Timeout Recommendation**: Any client application, frontend, or backend consuming this API should configure an HTTP request timeout of **at least 90 seconds** (`timeout=90.0` or higher) to avoid prematurely dropping connections during cold starts.
